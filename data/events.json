@@ -1,0 +1,126 @@
+{
+  "_nota": "Datas marcadas como 'estimado' seguem o padrão histórico do evento e devem ser confirmadas no site oficial. Edite/adicione eventos livremente neste arquivo.",
+  "eventos": [
+    {
+      "id": "first-2026",
+      "nome": "FIRST Conference 2026",
+      "setor": "ciberseguranca",
+      "local": "Copenhague, Dinamarca",
+      "inicio": "2026-06-21",
+      "fim": "2026-06-26",
+      "url": "https://www.first.org/conference/",
+      "status": "estimado",
+      "notas": "Resposta a incidentes (CSIRTs/CERTs)."
+    },
+    {
+      "id": "dfrws-usa-2026",
+      "nome": "DFRWS USA 2026",
+      "setor": "forense",
+      "local": "EUA",
+      "inicio": "2026-07-13",
+      "fim": "2026-07-16",
+      "url": "https://dfrws.org/",
+      "status": "estimado",
+      "notas": "Principal conferência acadêmica de forense digital."
+    },
+    {
+      "id": "sans-dfir-summit-2026",
+      "nome": "SANS DFIR Summit 2026",
+      "setor": "forense",
+      "local": "Salt Lake City / Online, EUA",
+      "inicio": "2026-07-23",
+      "fim": "2026-07-30",
+      "url": "https://www.sans.org/cyber-security-training-events/digital-forensics-summit/",
+      "status": "estimado",
+      "notas": "Summit + treinamentos de DFIR."
+    },
+    {
+      "id": "blackhat-usa-2026",
+      "nome": "Black Hat USA 2026",
+      "setor": "ciberseguranca",
+      "local": "Las Vegas, EUA",
+      "inicio": "2026-08-01",
+      "fim": "2026-08-06",
+      "url": "https://www.blackhat.com/",
+      "status": "estimado",
+      "notas": "Pesquisa ofensiva e defensiva de segurança."
+    },
+    {
+      "id": "defcon-34-2026",
+      "nome": "DEF CON 34",
+      "setor": "ciberseguranca",
+      "local": "Las Vegas, EUA",
+      "inicio": "2026-08-06",
+      "fim": "2026-08-09",
+      "url": "https://defcon.org/",
+      "status": "estimado",
+      "notas": "Maior conferência hacker do mundo."
+    },
+    {
+      "id": "mindthesec-sp-2026",
+      "nome": "Mind The Sec São Paulo 2026",
+      "setor": "ciberseguranca",
+      "local": "São Paulo, Brasil",
+      "inicio": "2026-09-15",
+      "fim": "2026-09-16",
+      "url": "https://www.mindthesec.com.br/",
+      "status": "estimado",
+      "notas": "Maior congresso de segurança da informação da América Latina."
+    },
+    {
+      "id": "iccyber-2026",
+      "nome": "ICCyber 2026 (Polícia Federal)",
+      "setor": "forense",
+      "local": "Brasil",
+      "inicio": "2026-09-23",
+      "fim": "2026-09-25",
+      "url": "https://www.gov.br/pf/",
+      "status": "estimado",
+      "notas": "Conferência internacional de perícia e crimes cibernéticos da PF."
+    },
+    {
+      "id": "congresso-direito-digital-2026",
+      "nome": "Congresso Brasileiro de Direito Digital 2026",
+      "setor": "juridico",
+      "local": "São Paulo, Brasil",
+      "inicio": "2026-10-08",
+      "fim": "2026-10-09",
+      "url": "https://www.migalhas.com.br/",
+      "status": "estimado",
+      "notas": "LGPD, provas digitais, perícia em juízo."
+    },
+    {
+      "id": "h2hc-2026",
+      "nome": "H2HC - Hackers to Hackers Conference 2026",
+      "setor": "ciberseguranca",
+      "local": "São Paulo, Brasil",
+      "inicio": "2026-11-28",
+      "fim": "2026-11-29",
+      "url": "https://www.h2hc.com.br/",
+      "status": "estimado",
+      "notas": "Conferência técnica de segurança ofensiva no Brasil."
+    },
+    {
+      "id": "roadsec-sp-2026",
+      "nome": "Roadsec São Paulo (final) 2026",
+      "setor": "ciberseguranca",
+      "local": "São Paulo, Brasil",
+      "inicio": "2026-11-21",
+      "fim": "2026-11-21",
+      "url": "https://roadsec.com.br/",
+      "status": "estimado",
+      "notas": "Maior evento itinerante de segurança do Brasil."
+    },
+    {
+      "id": "icdf2c-2026",
+      "nome": "ICDF2C 2026",
+      "setor": "forense",
+      "local": "Internacional",
+      "inicio": "2026-11-04",
+      "fim": "2026-11-06",
+      "url": "https://icdf2c.org/",
+      "status": "estimado",
+      "notas": "Intl. Conference on Digital Forensics & Cyber Crime."
+    }
+  ]
+}

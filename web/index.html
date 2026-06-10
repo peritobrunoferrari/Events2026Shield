@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events2026Shield · Monitor do Setor</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="topo-titulo">
+      <h1>🛡️ Events2026Shield</h1>
+      <p>Monitor de eventos e notícias — Perícia/Forense Digital · Cibersegurança · Jurídico Digital</p>
+    </div>
+    <div class="topo-acoes">
+      <span id="ultima-atualizacao" class="muted"></span>
+      <button id="btn-atualizar" class="btn">↻ Atualizar</button>
+    </div>
+  </header>
+
+  <section class="cards" id="cards-resumo">
+    <div class="card"><span class="card-num" id="r-noticias">–</span><span class="card-lbl">Notícias</span></div>
+    <div class="card alerta"><span class="card-num" id="r-noticias-alerta">–</span><span class="card-lbl">Em alerta</span></div>
+    <div class="card"><span class="card-num" id="r-eventos">–</span><span class="card-lbl">Próx. eventos</span></div>
+    <div class="card alerta"><span class="card-num" id="r-eventos-alerta">–</span><span class="card-lbl">Eventos próximos</span></div>
+  </section>
+
+  <nav class="filtros" id="filtros-setor"></nav>
+
+  <main class="grade">
+    <section class="coluna">
+      <h2>📅 Agenda 2026 <span class="muted" id="info-janela"></span></h2>
+      <div id="lista-eventos" class="lista"><p class="muted">Carregando…</p></div>
+    </section>
+
+    <section class="coluna">
+      <div class="cabecalho-noticias">
+        <h2>📰 Notícias do setor</h2>
+        <label class="check"><input type="checkbox" id="somente-alerta"> só alertas</label>
+      </div>
+      <div id="status-fontes" class="fontes"></div>
+      <div id="lista-noticias" class="lista"><p class="muted">Carregando…</p></div>
+    </section>
+  </main>
+
+  <section class="config">
+    <h2>🔔 Configuração de alertas</h2>
+    <div class="config-grid">
+      <div>
+        <label for="kw">Palavras-chave (uma por linha)</label>
+        <textarea id="kw" rows="6"></textarea>
+      </div>
+      <div>
+        <label for="janela">Antecedência de alerta de eventos (dias)</label>
+        <input type="number" id="janela" min="0" max="365">
+        <button id="btn-salvar" class="btn primario">Salvar alertas</button>
+        <p id="config-msg" class="muted"></p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="rodape">
+    <p class="muted">Datas de eventos marcadas como "estimado" devem ser confirmadas na fonte oficial · edite <code>data/events.json</code> e <code>data/feeds.json</code> para personalizar.</p>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "_nota": "Palavras-chave para alerta. Notícias que contenham qualquer termo serão destacadas. 'janela_evento_dias' define com quantos dias de antecedência um evento entra em alerta.",
+  "palavras_chave": [
+    "ransomware",
+    "vazamento",
+    "data breach",
+    "LGPD",
+    "ANPD",
+    "cadeia de custódia",
+    "prova digital",
+    "IPED",
+    "zero-day",
+    "CVE",
+    "perícia",
+    "forense",
+    "deepfake",
+    "phishing"
+  ],
+  "janela_evento_dias": 60
+}

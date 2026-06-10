@@ -1,0 +1,31 @@
+{
+  "forense": {
+    "label": "Perícia / Forense Digital",
+    "feeds": [
+      { "name": "Forensic Focus", "url": "https://www.forensicfocus.com/feed/" },
+      { "name": "The DFIR Report", "url": "https://thedfirreport.com/feed/" },
+      { "name": "Magnet Forensics", "url": "https://www.magnetforensics.com/feed/" },
+      { "name": "Belkasoft Blog", "url": "https://belkasoft.com/rss" },
+      { "name": "SANS DFIR", "url": "https://www.sans.org/blog/feed.xml" }
+    ]
+  },
+  "ciberseguranca": {
+    "label": "Cibersegurança",
+    "feeds": [
+      { "name": "The Hacker News", "url": "https://feeds.feedburner.com/TheHackersNews" },
+      { "name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/" },
+      { "name": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/" },
+      { "name": "Dark Reading", "url": "https://www.darkreading.com/rss.xml" },
+      { "name": "CISA Advisories", "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml" },
+      { "name": "CISO Advisor (BR)", "url": "https://www.cisoadvisor.com.br/feed/" }
+    ]
+  },
+  "juridico": {
+    "label": "Forense + Jurídico / Direito Digital",
+    "feeds": [
+      { "name": "Conjur", "url": "https://www.conjur.com.br/rss.xml" },
+      { "name": "Migalhas", "url": "https://www.migalhas.com.br/rss" },
+      { "name": "JOTA", "url": "https://www.jota.info/feed" }
+    ]
+  }
+}
