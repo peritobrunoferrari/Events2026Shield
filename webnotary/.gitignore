@@ -1,0 +1,7 @@
+node_modules/
+dist/
+registry.txt
+registry.txt.secret
+*.pfx
+*.p12
+*.log

@@ -10,6 +10,10 @@ Feito em **Python puro (biblioteca padrão)** — não precisa instalar nada al�
 
 ![setores](https://img.shields.io/badge/setores-forense%20%C2%B7%20ciberseg%20%C2%B7%20jur%C3%ADdico-blue)
 
+## 🧾 WebNotary (subprojeto)
+
+Em [`webnotary/`](webnotary/) está o **WebNotary**: navegador forense (Chromium/Electron) que registra sessões web com **gravação real de vídeo**, hash SHA-256/512, log encadeado em banco local, manifesto assinado **ICP-Brasil (A1/A3, CAdES) com carimbo do tempo**, ata em PDF **assinada automaticamente (PAdES)** e servidor de verificação remoto que guarda apenas hashes. Veja o [README do WebNotary](webnotary/README.md).
+
 ## ✨ O que faz
 
 | Recurso | Descrição |
