@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <!-- Device Policy Controller (DPC). directBootAware para receber callbacks em BFU. -->
+        <receiver
+            android:name=".SentinelDeviceAdminReceiver"
+            android:description="@string/sentinel_admin_description"
+            android:directBootAware="true"
+            android:exported="true"
+            android:label="@string/sentinel_admin_label"
+            android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/sentinel_device_admin" />
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+                <action android:name="android.app.action.PROFILE_PROVISIONING_COMPLETE" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

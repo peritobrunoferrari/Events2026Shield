@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- English skeleton (future option). Screen bodies are still pt-BR; see docs/LIMITATIONS.md. -->
+<resources>
+    <string name="app_name">Shield Sentinel</string>
+    <string name="shortcut_emergency_short">Emergency</string>
+    <string name="shortcut_emergency_long">Trigger emergency lock</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_mdm">Local MDM</string>
+    <string name="nav_usb">USB Protection</string>
+    <string name="nav_reboot">Auto Reboot</string>
+    <string name="nav_watchdog">Security Watchdog</string>
+    <string name="nav_hardening">Hardening</string>
+    <string name="nav_antitheft">Anti-theft</string>
+    <string name="nav_emergency">Emergency</string>
+    <string name="nav_duress">Duress PIN</string>
+    <string name="nav_audit">Audit</string>
+    <string name="nav_diagnostics">Diagnostics</string>
+    <string name="nav_about">About</string>
+    <string name="state_active">Active</string>
+    <string name="state_inactive">Inactive</string>
+    <string name="state_unavailable">Unavailable</string>
+    <string name="state_error">Error</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_apply">Apply</string>
+    <string name="action_revert">Revert</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_back">Back</string>
+</resources>

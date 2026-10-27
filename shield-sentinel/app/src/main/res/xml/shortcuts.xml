@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:shortcutId="emergency"
+        android:shortcutLongLabel="@string/shortcut_emergency_long"
+        android:shortcutShortLabel="@string/shortcut_emergency_short">
+        <intent
+            android:action="com.shieldpericias.sentinel.action.EMERGENCY"
+            android:targetClass="com.shieldpericias.sentinel.EmergencyActivity"
+            android:targetPackage="com.shieldpericias.sentinel">
+            <extra android:name="source" android:value="SHORTCUT" />
+        </intent>
+    </shortcut>
+</shortcuts>

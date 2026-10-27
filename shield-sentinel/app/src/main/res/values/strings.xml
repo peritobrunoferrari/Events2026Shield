@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shield Sentinel</string>
+    <string name="shortcut_emergency_short">Emergência</string>
+    <string name="shortcut_emergency_long">Acionar bloqueio de emergência</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_mdm">MDM Local</string>
+    <string name="nav_usb">Proteção USB</string>
+    <string name="nav_reboot">Reinicialização Automática</string>
+    <string name="nav_watchdog">Security Watchdog</string>
+    <string name="nav_hardening">Hardening</string>
+    <string name="nav_antitheft">Proteção Antirroubo</string>
+    <string name="nav_emergency">Emergência</string>
+    <string name="nav_duress">Duress PIN</string>
+    <string name="nav_audit">Auditoria</string>
+    <string name="nav_diagnostics">Diagnóstico</string>
+    <string name="nav_about">Sobre</string>
+    <string name="state_active">Ativo</string>
+    <string name="state_inactive">Inativo</string>
+    <string name="state_unavailable">Indisponível</string>
+    <string name="state_error">Erro</string>
+    <string name="action_refresh">Atualizar</string>
+    <string name="action_apply">Aplicar</string>
+    <string name="action_revert">Reverter</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_confirm">Confirmar</string>
+    <string name="action_back">Voltar</string>
+</resources>

@@ -91,3 +91,9 @@ Events2026Shield/
 - As **datas marcadas como "estimado"** seguem o padrão histórico de cada evento — **confirme no site oficial** e atualize `data/events.json`.
 - Se a rede bloquear algum feed (CORS não se aplica: o backend é quem busca), a fonte aparece como "falhou" no painel, mas o resto continua funcionando.
 - O cache de notícias é de 10 minutos; use o botão **↻ Atualizar** para forçar.
+
+---
+
+## 🛡️ Shield Sentinel (Android)
+
+Este repositório também hospeda o **Shield Sentinel**, aplicativo Android de segurança avançada sem root (Device Policy Controller em modo Device Owner), em [`shield-sentinel/`](shield-sentinel/). É um projeto Gradle independente do dashboard Python acima; veja [`shield-sentinel/README.md`](shield-sentinel/README.md). O APK de debug é gerado pelo workflow *Shield Sentinel Android CI*.

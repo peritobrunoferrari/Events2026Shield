@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="guard_channel_name">Monitor de proteção</string>
+    <string name="alert_channel_name">Alertas de segurança</string>
+    <string name="guard_notification_title">Shield Sentinel ativo</string>
+    <string name="guard_notification_text">Monitorando desbloqueios e políticas localmente.</string>
+    <string name="alert_title_protection_lost">Perda de proteção detectada</string>
+</resources>

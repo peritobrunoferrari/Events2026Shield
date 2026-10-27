@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Políticas solicitadas pelo Shield Sentinel. Cada uma é exibida ao usuário
+     na ativação. Mantido ao mínimo necessário para os módulos implementados. -->
+<device-admin xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-policies>
+        <!-- Observar tentativas de desbloqueio (onPasswordSucceeded/Failed). -->
+        <watch-login />
+        <!-- Bloqueio imediato (LockNowAction). -->
+        <force-lock />
+        <!-- Apagamento (Auto-Wipe / Duress FACTORY_RESET / Remote Wipe) — desativados por padrão. -->
+        <wipe-data />
+        <!-- Complexidade de senha (hardening). -->
+        <limit-password />
+        <!-- Restrição de câmera configurável. -->
+        <disable-camera />
+        <!-- Recursos do keyguard (trust agents etc.). -->
+        <disable-keyguard-features />
+    </uses-policies>
+</device-admin>

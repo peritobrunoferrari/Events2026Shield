@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sentinel_admin_label">Shield Sentinel</string>
+    <string name="sentinel_admin_description">Controlador de políticas de segurança local (Device Owner). Sem servidor, sem telemetria.</string>
+    <string name="sentinel_admin_disable_warning">Desativar o administrador removerá as proteções USB, Auto-Reboot, Watchdog e Antirroubo do Shield Sentinel.</string>
+</resources>
