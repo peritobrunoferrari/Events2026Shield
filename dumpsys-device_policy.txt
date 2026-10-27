@@ -1,0 +1,126 @@
+Current Device Policy Manager state:
+  Immutable state:
+    mHasFeature=true
+    mIsWatch=false
+    mIsAutomotive=false
+    mHasTelephonyFeature=true
+    mSafetyChecker=null
+  
+  
+  
+  Enabled Device Admins (User 0, provisioningState: 0):
+  
+    mPasswordOwner=-1
+    mPasswordTokenHandle=0
+    mAppsSuspended=false
+    mUserSetupComplete=true
+    mAffiliationIds={}
+    mNewUserDisclaimer=null
+  
+  
+  Constants:
+    DAS_DIED_SERVICE_RECONNECT_BACKOFF_SEC: 3600
+    DAS_DIED_SERVICE_RECONNECT_BACKOFF_INCREASE: 2.0
+    DAS_DIED_SERVICE_RECONNECT_MAX_BACKOFF_SEC: 86400
+    DAS_DIED_SERVICE_STABLE_CONNECTION_THRESHOLD_SEC: 120
+  
+  Stats:
+    LockGuard.guard(): count=1626, total=2.5ms, avg=0.002ms, max calls/s=312 max dur/s=0.5ms max time=0.1ms
+  
+  Local Policies: 
+    User 0:
+  
+  Global Policies: 
+  
+  Default admin policy size limit: -1
+  Current admin policy size limit: -1
+  Admin Policies size: 
+
+Encryption Status: per-user
+Logout user: -10000
+
+no pending user created callback tokens
+
+Device policy cache:
+  Screen capture disallowed users: []
+  Password quality: {0=0}
+  Permission policy: {0=0}
+  Content protection policy: {}
+  Admin can grant sensors permission: false
+  Shortcuts overrides: {}
+
+Device state cache:
+  Device provisioned: true
+  Device Owner Type: -1
+  Has PO:
+
+PersonalAppsSuspensionHelper
+  critical packages: empty
+  launcher packages: 2 apps
+    0: com.android.launcher3
+    1: com.android.settings
+  accessibility services: empty
+  input method packages: 1 app
+    0: com.android.inputmethod.latin
+  SMS package: com.android.messaging
+  Settings package: com.android.settings
+  Packages subject to suspension: 10 apps
+    0: com.android.documentsui
+    1: com.android.quicksearchbox
+    2: com.android.contacts
+    3: com.android.camera2
+    4: com.android.stk
+    5: com.android.calendar
+    6: com.shieldpericias.sentinel
+    7: com.android.gallery3d
+    8: org.chromium.webview_shell
+    9: com.android.deskclock
+Subscription changed listener : null
+DPM global setting ALLOW_WORK_PROFILE_TELEPHONY_FOR_NON_DPM_ROLE_HOLDERS : null
+OverlayPackagesProvider
+  required_apps_managed_device: 10 apps
+    0: com.android.documentsui
+    1: com.android.providers.downloads
+    2: com.android.providers.downloads.ui
+    3: com.android.contacts
+    4: com.android.stk
+    5: com.android.webview
+    6: com.android.cellbroadcastreceiver
+    7: com.android.dialer
+    8: com.android.settings
+    9: com.android.systemui
+  required_apps_managed_user: 9 apps
+    0: com.android.documentsui
+    1: com.android.providers.downloads
+    2: com.android.providers.downloads.ui
+    3: com.android.contacts
+    4: com.android.stk
+    5: com.android.webview
+    6: com.android.dialer
+    7: com.android.settings
+    8: com.android.systemui
+  required_apps_managed_profile: 7 apps
+    0: com.android.documentsui
+    1: com.android.providers.downloads
+    2: com.android.providers.downloads.ui
+    3: com.android.contacts
+    4: com.android.webview
+    5: com.android.settings
+    6: com.android.systemui
+  disallowed_apps_managed_device: empty
+  disallowed_apps_managed_user: empty
+  disallowed_apps_managed_device: empty
+  vendor_required_apps_managed_device: empty
+  vendor_required_apps_managed_user: empty
+  vendor_required_apps_managed_profile: empty
+  vendor_disallowed_apps_managed_user: empty
+  vendor_disallowed_apps_managed_device: empty
+  vendor_disallowed_apps_managed_profile: empty
+
+Other overlayable app resources
+  cross_profile_apps: empty
+  vendor_cross_profile_apps: empty
+  config_packagesExemptFromSuspension: empty
+  policy_exempt_apps: empty
+  vendor_policy_exempt_apps: empty
+
