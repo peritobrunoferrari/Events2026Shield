@@ -85,7 +85,7 @@ class AuditLog(context: Context, private val maxEntries: Int = 2_000) {
         file.readLines().filter { it.isNotBlank() }.takeLast(limit).mapNotNull { l ->
             runCatching {
                 val o = JSONObject(l)
-                AuditEvent(o.getString("t"), o.getLong("ts"), o.optString("d", null), o.getString("p"), o.getString("h"))
+                AuditEvent(o.getString("t"), o.getLong("ts"), if (o.isNull("d")) null else o.getString("d"), o.getString("p"), o.getString("h"))
             }.getOrNull()
         }.reversed()
     }
