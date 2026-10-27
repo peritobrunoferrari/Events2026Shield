@@ -64,15 +64,15 @@ enum class Route(val path: String, val title: String) {
 }
 
 @Composable
-fun SentinelRoot(graph: SentinelGraph) {
+fun SentinelRoot(graph: SentinelGraph, startRoute: Route = Route.DASHBOARD) {
     var unlocked by remember { mutableStateOf(!graph.duressPins.hasNormalPin()) }
     if (!unlocked) {
         PinGateScreen(graph = graph, onUnlocked = { unlocked = true })
         return
     }
     val nav = rememberNavController()
-    NavHost(navController = nav, startDestination = Route.DASHBOARD.path) {
-        composable(Route.DASHBOARD.path) { ScreenScaffold(Route.DASHBOARD, nav, root = true) { snack -> DashboardScreen(graph, nav, snack) } }
+    NavHost(navController = nav, startDestination = startRoute.path) {
+        composable(Route.DASHBOARD.path) { ScreenScaffold(Route.DASHBOARD, nav, root = startRoute == Route.DASHBOARD) { snack -> DashboardScreen(graph, nav, snack) } }
         composable(Route.MDM.path) { ScreenScaffold(Route.MDM, nav) { snack -> MdmScreen(graph, snack) } }
         composable(Route.USB.path) { ScreenScaffold(Route.USB, nav) { snack -> UsbScreen(graph, snack) } }
         composable(Route.REBOOT.path) { ScreenScaffold(Route.REBOOT, nav) { snack -> AutoRebootScreen(graph, snack) } }

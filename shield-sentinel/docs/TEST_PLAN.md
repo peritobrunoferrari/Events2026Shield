@@ -16,6 +16,14 @@ Executar: `./gradlew :core-logic:test` (24 testes) ou `tools/jvm-verify$ ./gradl
 ## 2. Verificação estática dos módulos Android — automatizada
 `tools/jvm-verify$ ./gradlew :android-typecheck:compileKotlin` compila os 12 módulos Android contra o framework Android 17 (API 37, `org.robolectric:android-all:17-robolectric-15733970`). Garante uso correto das APIs públicas sem SDK instalado.
 
+## 2b. Smoke test em emulador (CI) — automatizado
+Workflow `shield-sentinel-emulator.yml` (runner Linux com KVM, imagem `google_apis` x86_64, API 36 por padrão; `workflow_dispatch` aceita outro nível). Script `tools/emulator/smoke-test.sh`:
+1. instala o APK debug e executa `dpm set-device-owner` (emulador sem contas) — exige `Success`;
+2. define PIN de bloqueio (`locksettings set-pin 1234`) para habilitar a prova de desbloqueio;
+3. abre cada uma das 12 telas via extra `sentinel.route` (só em builds debug), captura screenshot e falha se houver `FATAL EXCEPTION` no logcat;
+4. registra `dumpsys device_policy`, estado do `SentinelGuardService`, um ciclo bloquear/desbloquear e a auditoria (`audit.jsonl` via `run-as`).
+Nenhuma ação destrutiva: não há wipe nem reboot. Artefato: `emulator-smoke-results` (PNGs, logcat, dumpsys).
+
 ## 3. Testes de integração (instrumentados, aparelho/emulador) — a executar na homologação
 Pré-requisito: emulador ou aparelho secundário com o Sentinel como Device Owner (`adb shell dpm set-device-owner …`). **Use APK debug com `dryRun` ligado.**
 
