@@ -20,6 +20,9 @@ adb shell getprop ro.build.version.sdk | sed 's/^/[smoke] API /'
 log "instalando APK"
 adb install -r -g "$APK" || fail "install"
 
+log "contas presentes antes do provisionamento (devem ser zero)"
+adb shell dumpsys account 2>/dev/null | grep -E "Account \{|Accounts: [0-9]+" | head -10 | tee "$OUT/accounts.txt"
+
 log "provisionando Device Owner via dpm"
 DPM_OUT=$(adb shell dpm set-device-owner "$ADMIN" 2>&1 | tr -d '\r'); echo "$DPM_OUT" | tee "$OUT/dpm-set-device-owner.txt"
 echo "$DPM_OUT" | grep -q "Success" || fail "dpm set-device-owner"
@@ -63,6 +66,10 @@ else
   log "auditoria não lida (run-as indisponível ou arquivo vazio)"
 fi
 
+log "últimos eventos de auditoria"
+tail -25 "$OUT/audit.jsonl" 2>/dev/null | cut -c1-160 | sed 's/^/[smoke]   /'
+log "logcat do Sentinel (últimas linhas relevantes)"
+grep -iE "sentinel|DevicePolicy|keystore" "$OUT/logcat-final.txt" | grep -vE "^.*D/" | tail -30 | cut -c1-200 | sed 's/^/[smoke]   /'
 if grep -qE "FATAL EXCEPTION" "$OUT/logcat-final.txt"; then fail "exceção fatal no logcat final"; fi
 log "resultado: $([ $FAIL -eq 0 ] && echo OK || echo FALHOU)"
 exit $FAIL

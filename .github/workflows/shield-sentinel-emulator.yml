@@ -12,7 +12,7 @@ on:
         default: "36"
 
 permissions:
-  contents: read
+  contents: write   # publica os resultados (screenshots/logs) no branch ci-emulator-results
 
 jobs:
   emulator:
@@ -46,7 +46,8 @@ jobs:
         uses: reactivecircus/android-emulator-runner@v2
         with:
           api-level: ${{ github.event.inputs.api-level || '36' }}
-          target: google_apis
+          # Imagem AOSP: sem contas pré-existentes (google_apis bloqueia dpm set-device-owner).
+          target: default
           arch: x86_64
           profile: pixel_6
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
@@ -59,3 +60,20 @@ jobs:
           name: emulator-smoke-results
           path: emulator-results/
           if-no-files-found: warn
+
+      - name: Publicar resultados no branch ci-emulator-results
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          [ -d emulator-results ] || exit 0
+          cd emulator-results
+          git init -q
+          git checkout -q -b ci-emulator-results
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          echo "run=${GITHUB_RUN_ID} sha=${GITHUB_SHA} api=${{ github.event.inputs.api-level || '36' }}" > RUN.txt
+          git add -A
+          git commit -qm "Smoke test ${GITHUB_SHA::7} (run ${GITHUB_RUN_ID})"
+          git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:ci-emulator-results
