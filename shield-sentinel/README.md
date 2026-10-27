@@ -4,7 +4,7 @@
 
 Aplicativo profissional de segurança para Android **sem root**, implementado como **Device Policy Controller (DPC)** em modo **Device Owner**, totalmente **local** (sem VPS, sem servidor, sem telemetria). Aplica políticas de proteção física, controle USB, reinicialização automática, bloqueio de emergência e resposta a perda/roubo usando **apenas APIs públicas do Android** (`DevicePolicyManager`, `UserManager`, `AdvancedProtectionManager`, Android Keystore).
 
-> Estado do projeto: **0.1.0-alpha** — todas as fases (1–8) têm implementação inicial; a homologação em aparelho real ainda não foi executada. Veja [docs/LIMITATIONS.md](docs/LIMITATIONS.md).
+> Estado do projeto: **0.1.0-alpha** — todas as fases (1–8) têm implementação inicial; o CI gera o APK de debug (artefato `shield-sentinel-debug-apk`); a homologação em aparelho real ainda não foi executada. Veja [docs/LIMITATIONS.md](docs/LIMITATIONS.md).
 
 ## Princípios (verificáveis no código)
 
