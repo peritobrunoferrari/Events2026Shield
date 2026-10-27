@@ -59,7 +59,7 @@ screens="dashboard mdm usb reboot watchdog hardening antitheft emergency duress 
 i=0
 for r in $screens; do
   i=$((i+1)); n=$(printf "%02d" $i)
-  adb shell am force-stop $PKG
+  # Device Owner não pode ser encerrado por force-stop: a Activity (singleTask) recebe a rota em onNewIntent.
   adb shell am start -W -n $PKG/.MainActivity --es sentinel.route "$r" --ez sentinel.debug.allowCapture true >/dev/null 2>&1 || fail "am start $r"
   sleep 4
   dismiss_anr

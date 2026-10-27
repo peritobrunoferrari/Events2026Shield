@@ -22,10 +22,10 @@ jobs:
           # API 34: dpm set-device-owner funciona em imagem AOSP → exige Device Owner.
           - api: 34
             require_do: "1"
-          # API 36: o emulador recusa set-device-owner ("accounts") mesmo sem contas;
-          # roda sem DO para detectar crashes/regressões de UI no Android 16.
+          # API 36: set-device-owner funciona após alguns segundos de boot (o serviço
+          # calcula "hasIncompatibleAccounts" de forma assíncrona); há fallback adb root.
           - api: 36
-            require_do: "0"
+            require_do: "1"
     steps:
       - uses: actions/checkout@v4
 
