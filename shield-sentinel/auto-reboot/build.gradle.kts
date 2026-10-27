@@ -5,6 +5,7 @@ plugins {
 android {
     namespace = "com.shieldpericias.sentinel.autoreboot"
     compileSdk = (project.property("sentinelCompileSdk") as String).toInt()
+    (project.findProperty("sentinelCompileSdkMinor") as String?)?.toIntOrNull()?.takeIf { it > 0 }?.let { compileSdkMinor = it }
     defaultConfig {
         minSdk = (project.property("sentinelMinSdk") as String).toInt()
     }

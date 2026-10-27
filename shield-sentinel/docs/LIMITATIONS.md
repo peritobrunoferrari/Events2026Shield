@@ -16,5 +16,5 @@
 14. **Homologação pendente.** O código foi compilado (core-logic com testes) e checado por tipos contra o framework Android 17, mas **ainda não foi executado em aparelho real**. O módulo `app` (Compose) só é compilado no CI/Android Studio. Samsung/Motorola não validados.
 15. **Sem R8/minificação** no release desta fase (facilita auditoria; aumentar hardening de build depois da homologação).
 16. **PolicyUpdateReceiver (API 34) não implementado**: resultado assíncrono de políticas em conflito com outro admin não é capturado; o estado é relido pelo Watchdog.
-17. **Platform SDK 37 ainda não publicado no sdkmanager** (out/2026): o build padrão usa compileSdk 36; o código já usa apenas APIs ≤ 36 e o type-check local roda contra o framework Android 17 do Robolectric. A validação em Android 17 fica pendente do platform oficial.
+17. **SDK 37 com versão menor.** O pacote `platforms;android-37` não existe; o Compose 1.12 exige compileSdk 37.1 (`compileSdkMinor`). O código usa apenas APIs ≤ 36 (AdvancedProtectionManager é a mais recente); a validação de comportamento em Android 17 depende de aparelho/emulador com a imagem final.
 18. **Prova de desbloqueio após troca de credencial**: a chave auth-bound é invalidada e recriada; o desbloqueio seguinte conta normalmente.

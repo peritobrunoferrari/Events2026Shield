@@ -47,13 +47,13 @@ Dependências entre módulos são acíclicas: `app → *`; `watchdog → usb, ha
 
 ## Build
 
-Requisitos: JDK 17+, Android SDK com `platforms;android-36` e `build-tools;36.0.0` (API 37 opcional quando o platform for publicado). Gradle 9.6 via wrapper; AGP 9.4.0 (Kotlin embutido); Kotlin 2.4.21; Compose BOM 2026.09.00.
+Requisitos: JDK 17+, Android SDK com platform Android 17 (API 37.1; o AGP baixa automaticamente com licenças aceitas) e `build-tools;36.0.0`. Gradle 9.6 via wrapper; AGP 9.4.0 (Kotlin embutido); Kotlin 2.4.21; Compose BOM 2026.09.00 (Compose 1.12 exige compileSdk ≥ 37.1).
 
 ```bash
 cd shield-sentinel
 ./gradlew :core-logic:test            # testes unitários JVM
 ./gradlew assembleDebug               # APK em app/build/outputs/apk/debug/
-./gradlew -PsentinelCompileSdk=37 -PsentinelTargetSdk=37 assembleDebug   # Android 17, quando o platform 37 existir
+./gradlew -PsentinelCompileSdk=37 -PsentinelCompileSdkMinor=2 assembleDebug   # outra versão menor do SDK 37
 ```
 
 Sem Android SDK (ex.: CI restrito, este contêiner de desenvolvimento):
@@ -65,7 +65,7 @@ cd shield-sentinel/tools/jvm-verify
 ./gradlew :admin-cli:installDist && admin-cli/build/install/admin-cli/bin/admin-cli keygen
 ```
 
-O workflow `.github/workflows/shield-sentinel-android.yml` executa tudo isso e publica o **APK de debug** como artefato (compileSdk 36 obrigatório; 37 opcional).
+O workflow `.github/workflows/shield-sentinel-android.yml` executa tudo isso e publica o **APK de debug** como artefato.
 
 ## Fases e estado
 

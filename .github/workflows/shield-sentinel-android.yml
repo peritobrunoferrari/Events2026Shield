@@ -35,15 +35,8 @@ jobs:
           path: shield-sentinel/tools/jvm-verify/core-logic-jvm/build/test-results/
 
   android-build:
-    name: APK debug (compileSdk ${{ matrix.sdk }})
+    name: APK debug (compileSdk 37.1)
     runs-on: ubuntu-latest
-    # API 36 é obrigatório; API 37 (Android 17) é opcional até o platform ser
-    # publicado no sdkmanager (hoje "Failed to find package platforms;android-37").
-    continue-on-error: ${{ matrix.sdk == 37 }}
-    strategy:
-      fail-fast: false
-      matrix:
-        sdk: [36, 37]
     defaults:
       run:
         working-directory: shield-sentinel
@@ -55,15 +48,17 @@ jobs:
           java-version: "21"
       - uses: android-actions/setup-android@v3
         with:
-          packages: "platforms;android-${{ matrix.sdk }} build-tools;36.0.0 platform-tools"
+          packages: "build-tools;36.0.0 platform-tools"
           accept-android-sdk-licenses: true
+      - name: Platforms disponíveis no sdkmanager (diagnóstico)
+        run: sdkmanager --list 2>/dev/null | grep -E "platforms;android-3[6-9]" || true
       - uses: gradle/actions/setup-gradle@v4
       - name: Testes unitários
-        run: ./gradlew --no-daemon -PsentinelCompileSdk=${{ matrix.sdk }} -PsentinelTargetSdk=${{ matrix.sdk }} :core-logic:test
-      - name: APK debug
-        run: ./gradlew --no-daemon -PsentinelCompileSdk=${{ matrix.sdk }} -PsentinelTargetSdk=${{ matrix.sdk }} :app:assembleDebug
+        run: ./gradlew --no-daemon :core-logic:test
+      - name: APK debug (o AGP baixa o platform android-37.x se necessário)
+        run: ./gradlew --no-daemon :app:assembleDebug
       - uses: actions/upload-artifact@v4
         with:
-          name: shield-sentinel-debug-apk-sdk${{ matrix.sdk }}
+          name: shield-sentinel-debug-apk
           path: shield-sentinel/app/build/outputs/apk/debug/*.apk
           if-no-files-found: error
