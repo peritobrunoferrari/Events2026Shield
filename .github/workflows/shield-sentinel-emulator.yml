@@ -6,19 +6,26 @@ on:
       - "shield-sentinel/**"
       - ".github/workflows/shield-sentinel-emulator.yml"
   workflow_dispatch:
-    inputs:
-      api-level:
-        description: "API level da imagem do emulador"
-        default: "36"
 
 permissions:
   contents: write   # publica os resultados (screenshots/logs) no branch ci-emulator-results
 
 jobs:
   emulator:
-    name: Emulador Android (API ${{ github.event.inputs.api-level || '36' }})
+    name: Emulador Android (API ${{ matrix.api }})
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          # API 34: dpm set-device-owner funciona em imagem AOSP → exige Device Owner.
+          - api: 34
+            require_do: "1"
+          # API 36: o emulador recusa set-device-owner ("accounts") mesmo sem contas;
+          # roda sem DO para detectar crashes/regressões de UI no Android 16.
+          - api: 36
+            require_do: "0"
     steps:
       - uses: actions/checkout@v4
 
@@ -45,23 +52,23 @@ jobs:
       - name: Emulador + smoke test (sem wipe, sem reboot)
         uses: reactivecircus/android-emulator-runner@v2
         with:
-          api-level: ${{ github.event.inputs.api-level || '36' }}
+          api-level: ${{ matrix.api }}
           # Imagem AOSP: sem contas pré-existentes (google_apis bloqueia dpm set-device-owner).
           target: default
           arch: x86_64
           profile: pixel_6
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
           disable-animations: true
-          script: shield-sentinel/tools/emulator/smoke-test.sh shield-sentinel/app/build/outputs/apk/debug/app-debug.apk emulator-results
+          script: REQUIRE_DO=${{ matrix.require_do }} shield-sentinel/tools/emulator/smoke-test.sh shield-sentinel/app/build/outputs/apk/debug/app-debug.apk emulator-results
 
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: emulator-smoke-results
+          name: emulator-smoke-results-api${{ matrix.api }}
           path: emulator-results/
           if-no-files-found: warn
 
-      - name: Publicar resultados no branch ci-emulator-results
+      - name: Publicar resultados no branch ci-emulator-results-api${{ matrix.api }}
         if: always()
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -70,10 +77,10 @@ jobs:
           [ -d emulator-results ] || exit 0
           cd emulator-results
           git init -q
-          git checkout -q -b ci-emulator-results
+          git checkout -q -b ci-emulator-results-api${{ matrix.api }}
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          echo "run=${GITHUB_RUN_ID} sha=${GITHUB_SHA} api=${{ github.event.inputs.api-level || '36' }}" > RUN.txt
+          echo "run=${GITHUB_RUN_ID} sha=${GITHUB_SHA} api=${{ matrix.api }}" > RUN.txt
           git add -A
           git commit -qm "Smoke test ${GITHUB_SHA::7} (run ${GITHUB_RUN_ID})"
-          git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:ci-emulator-results
+          git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:ci-emulator-results-api${{ matrix.api }}

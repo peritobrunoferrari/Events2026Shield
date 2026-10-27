@@ -8,9 +8,24 @@ ADMIN="$PKG/$PKG.deviceowner.SentinelDeviceAdminReceiver"
 FAIL=0
 log() { echo "[smoke] $*"; }
 fail() { log "FALHA: $*"; FAIL=1; }
+REQUIRE_DO="${REQUIRE_DO:-0}"
+DO_OK=0
+
+# O launcher do emulador (Quickstep) costuma dar ANR com renderização por software;
+# o diálogo cobre a tela. Toca em "Wait" quando presente.
+dismiss_anr() {
+  for _ in 1 2 3; do
+    if adb shell dumpsys window windows 2>/dev/null | grep -q "Application Not Responding"; then
+      adb shell input tap 320 1332; sleep 1
+    else
+      return 0
+    fi
+  done
+}
 
 adb wait-for-device
 adb shell input keyevent 82 >/dev/null 2>&1 || true
+sleep 10; dismiss_anr
 adb shell settings put global window_animation_scale 0
 adb shell settings put global transition_animation_scale 0
 adb shell settings put global animator_duration_scale 0
@@ -20,12 +35,21 @@ adb shell getprop ro.build.version.sdk | sed 's/^/[smoke] API /'
 log "instalando APK"
 adb install -r -g "$APK" || fail "install"
 
-log "contas presentes antes do provisionamento (devem ser zero)"
+log "contas/usuários antes do provisionamento"
 adb shell dumpsys account 2>/dev/null | grep -E "Account \{|Accounts: [0-9]+" | head -10 | tee "$OUT/accounts.txt"
+adb shell pm list users 2>/dev/null | tee -a "$OUT/accounts.txt"
+echo "user_setup_complete=$(adb shell settings get secure user_setup_complete 2>/dev/null)" | tee -a "$OUT/accounts.txt"
 
 log "provisionando Device Owner via dpm"
 DPM_OUT=$(adb shell dpm set-device-owner "$ADMIN" 2>&1 | tr -d '\r'); echo "$DPM_OUT" | tee "$OUT/dpm-set-device-owner.txt"
-echo "$DPM_OUT" | grep -q "Success" || fail "dpm set-device-owner"
+if echo "$DPM_OUT" | grep -q "Success"; then DO_OK=1; else
+  log "tentando novamente como root (imagem userdebug)"
+  adb root >/dev/null 2>&1 && adb wait-for-device && sleep 3
+  DPM_OUT=$(adb shell dpm set-device-owner "$ADMIN" 2>&1 | tr -d '\r'); echo "$DPM_OUT" | tee -a "$OUT/dpm-set-device-owner.txt"
+  echo "$DPM_OUT" | grep -q "Success" && DO_OK=1
+  adb unroot >/dev/null 2>&1 || true; adb wait-for-device
+fi
+if [ "$DO_OK" = "1" ]; then log "Device Owner provisionado"; elif [ "$REQUIRE_DO" = "1" ]; then fail "dpm set-device-owner"; else log "AVISO: Device Owner indisponível nesta imagem; seguindo sem DO"; fi
 
 log "definindo PIN de bloqueio (necessário para a prova de desbloqueio)"
 adb shell locksettings set-pin 1234 2>&1 | tr -d '\r' | tee "$OUT/locksettings.txt"
@@ -38,6 +62,7 @@ for r in $screens; do
   adb shell am force-stop $PKG
   adb shell am start -W -n $PKG/.MainActivity --es sentinel.route "$r" --ez sentinel.debug.allowCapture true >/dev/null 2>&1 || fail "am start $r"
   sleep 4
+  dismiss_anr
   adb exec-out screencap -p > "$OUT/$n-$r.png" || fail "screencap $r"
   if adb logcat -d 2>/dev/null | grep -E "FATAL EXCEPTION|AndroidRuntime: .*$PKG|Process $PKG .*has died" | grep -q .; then
     fail "crash na tela $r"
@@ -50,7 +75,8 @@ done
 log "estado do serviço de guarda e do DPC"
 adb shell dumpsys activity services $PKG 2>/dev/null | grep -E "SentinelGuardService|isForeground" | head -5 | tee "$OUT/guard-service.txt"
 adb shell dumpsys device_policy 2>/dev/null > "$OUT/dumpsys-device_policy.txt" || true
-grep -E "Device Owner|$PKG|mDeviceOwner" "$OUT/dumpsys-device_policy.txt" | head -10
+grep -E "Device Owner|$PKG|mDeviceOwner|DISALLOW" "$OUT/dumpsys-device_policy.txt" | head -15
+echo "DO_OK=$DO_OK" > "$OUT/RESULT.txt"
 adb shell dumpsys activity broadcasts 2>/dev/null | grep -c "$PKG" | sed 's/^/[smoke] broadcasts registrados: /'
 
 log "ciclo bloquear/desbloquear para exercitar UnlockVerifier"

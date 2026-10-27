@@ -17,12 +17,12 @@ Executar: `./gradlew :core-logic:test` (24 testes) ou `tools/jvm-verify$ ./gradl
 `tools/jvm-verify$ ./gradlew :android-typecheck:compileKotlin` compila os 12 módulos Android contra o framework Android 17 (API 37, `org.robolectric:android-all:17-robolectric-15733970`). Garante uso correto das APIs públicas sem SDK instalado.
 
 ## 2b. Smoke test em emulador (CI) — automatizado
-Workflow `shield-sentinel-emulator.yml` (runner Linux com KVM, imagem `google_apis` x86_64, API 36 por padrão; `workflow_dispatch` aceita outro nível). Script `tools/emulator/smoke-test.sh`:
+Workflow `shield-sentinel-emulator.yml` (runner Linux com KVM, imagens AOSP `default` x86_64, matriz API 34 e 36). Na API 34 o Device Owner é obrigatório; na API 36 o emulador recusa `dpm set-device-owner` alegando contas mesmo com zero contas, então o teste roda sem DO (apenas detecção de crashes). Observação: o Android 16 reentrega `LOCKED_BOOT_COMPLETED`/`BOOT_COMPLETED` a cada saída do estado *stopped* (após `am force-stop`), o que gera eventos `boot` repetidos na auditoria do teste; `onBoot` é idempotente. Script `tools/emulator/smoke-test.sh`:
 1. instala o APK debug e executa `dpm set-device-owner` (emulador sem contas) — exige `Success`;
 2. define PIN de bloqueio (`locksettings set-pin 1234`) para habilitar a prova de desbloqueio;
 3. abre cada uma das 12 telas via extra `sentinel.route` (só em builds debug), captura screenshot e falha se houver `FATAL EXCEPTION` no logcat;
 4. registra `dumpsys device_policy`, estado do `SentinelGuardService`, um ciclo bloquear/desbloquear e a auditoria (`audit.jsonl` via `run-as`).
-Nenhuma ação destrutiva: não há wipe nem reboot. Artefato: `emulator-smoke-results` (PNGs, logcat, dumpsys).
+Nenhuma ação destrutiva: não há wipe nem reboot. Artefatos: `emulator-smoke-results-api34/36` e branches `ci-emulator-results-api34/36` (PNGs, logcat, dumpsys, audit.jsonl).
 
 ## 3. Testes de integração (instrumentados, aparelho/emulador) — a executar na homologação
 Pré-requisito: emulador ou aparelho secundário com o Sentinel como Device Owner (`adb shell dpm set-device-owner …`). **Use APK debug com `dryRun` ligado.**
