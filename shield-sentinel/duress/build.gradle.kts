@@ -22,6 +22,7 @@ dependencies {
     implementation(project(":audit"))
     implementation(project(":anti-theft"))
     implementation(project(":emergency"))
+    implementation(project(":auto-reboot"))
     implementation(libs.kotlinx.coroutines.android)
     testImplementation(libs.junit)
 }

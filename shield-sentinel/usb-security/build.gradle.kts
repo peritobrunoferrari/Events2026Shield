@@ -19,6 +19,7 @@ dependencies {
     implementation(project(":core-security"))
     implementation(project(":device-owner"))
     implementation(project(":audit"))
+    implementation(project(":secure-storage"))
     implementation(libs.kotlinx.coroutines.android)
     testImplementation(libs.junit)
 }

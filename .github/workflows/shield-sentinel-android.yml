@@ -37,10 +37,13 @@ jobs:
   android-build:
     name: APK debug (compileSdk ${{ matrix.sdk }})
     runs-on: ubuntu-latest
+    # API 36 é obrigatório; API 37 (Android 17) é opcional até o platform ser
+    # publicado no sdkmanager (hoje "Failed to find package platforms;android-37").
+    continue-on-error: ${{ matrix.sdk == 37 }}
     strategy:
       fail-fast: false
       matrix:
-        sdk: [37, 36]
+        sdk: [36, 37]
     defaults:
       run:
         working-directory: shield-sentinel
