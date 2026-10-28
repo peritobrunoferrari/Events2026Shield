@@ -1,3 +1,5 @@
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
@@ -20,7 +22,7 @@ android {
     // Assinatura de release: lida de app/keystore.properties (não versionado) ou de variáveis
     // de ambiente SENTINEL_KEYSTORE_FILE/PASSWORD/KEY_ALIAS/KEY_PASSWORD. Sem elas, o APK de
     // release sai NÃO assinado (apenas para verificar o build).
-    val keystoreProps = java.util.Properties().apply {
+    val keystoreProps = Properties().apply {
         val f = rootProject.file("app/keystore.properties")
         if (f.exists()) f.inputStream().use { load(it) }
     }
