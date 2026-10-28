@@ -4,7 +4,7 @@
 
 Aplicativo profissional de segurança para Android **sem root**, implementado como **Device Policy Controller (DPC)** em modo **Device Owner**, totalmente **local** (sem VPS, sem servidor, sem telemetria). Aplica políticas de proteção física, controle USB, reinicialização automática, bloqueio de emergência e resposta a perda/roubo usando **apenas APIs públicas do Android** (`DevicePolicyManager`, `UserManager`, `AdvancedProtectionManager`, Android Keystore).
 
-> Estado do projeto: **0.1.0-alpha** — todas as fases (1–8) têm implementação inicial; o CI gera o APK de debug (artefato `shield-sentinel-debug-apk`) e executa um smoke test em emulador (Android 14 e 16, Device Owner provisionado, 12 telas sem crash; resultados nos branches `ci-emulator-results-api34/36`); a homologação em aparelho real ainda não foi executada. Veja [docs/LIMITATIONS.md](docs/LIMITATIONS.md).
+> Estado do projeto: **0.1.0-alpha** — todas as fases (1–8) têm implementação inicial; o CI gera o APK de debug (artefato `shield-sentinel-debug-apk`) e executa em emulador (Android 14 e 16, Device Owner provisionado) um smoke test de 12 telas e 13 testes instrumentados de políticas reais (resultados nos branches `ci-emulator-results-api34/36`); a homologação em aparelho real ainda não foi executada. Veja [docs/LIMITATIONS.md](docs/LIMITATIONS.md).
 
 ## Princípios (verificáveis no código)
 
@@ -84,7 +84,7 @@ O workflow `.github/workflows/shield-sentinel-android.yml` executa tudo isso e p
 | 5 | Auto-Wipe por inatividade (7 d padrão, STRICT evidence, dry-run) | Implementada |
 | 6 | Protocolo Remote Wipe assinado + transporte manual (opcional) | Implementada |
 | 7 | Duress PIN (UI própria; LOCK / LOCK+REBOOT / FACTORY_RESET opcional) | Implementada |
-| 8 | Auditoria, testes, documentação | Implementada (homologação em aparelho pendente) |
+| 8 | Auditoria, testes (24 unitários + 13 instrumentados em emulador), documentação | Implementada (homologação em aparelho pendente) |
 
 ## Documentação
 

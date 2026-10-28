@@ -1,13 +1,13 @@
 # Matriz de compatibilidade
 
-Estado: **parcialmente validada em emulador** (CI, imagens AOSP x86_64 API 34 e 36: instalação, `dpm set-device-owner`, 12 telas sem crash, serviço de guarda em primeiro plano, auditoria). Nenhuma linha foi executada em aparelho real ainda (ver TEST_PLAN.md). Colunas: ✔ esperado por API pública · ◐ depende do OEM/usuário · ✖ indisponível · ? a validar.
+Estado: **parcialmente validada em emulador** (CI, imagens AOSP x86_64 API 34 e 36: instalação, `dpm set-device-owner`, 12 telas sem crash, serviço de guarda, auditoria e 13 testes instrumentados de políticas com Device Owner). Nenhuma linha foi executada em aparelho real ainda (ver TEST_PLAN.md). Colunas: ✔ esperado por API pública · ◐ depende do OEM/usuário · ✖ indisponível · ? a validar.
 
 | Recurso | Android 12 (31) | 13 (33) | 14 (34) | 15 (35) | 16 (36) | 17 (37) | Pixel | Samsung | Motorola |
 |---|---|---|---|---|---|---|---|---|---|
 | Device Owner via ADB/QR | ✔ | ✔ | ✔ emulador | ✔ | ✔ emulador | ✔ | ✔ | ✔ (Knox pode exigir fluxo próprio) ? | ✔ ? |
 | Proteção Avançada (camada A) | ✖ | ✖ | ✖ | ✖ | ✔ | ✔ | ✔ | ◐ (OEM) ? | ◐ ? |
 | Sinalização USB (camada B) | ◐ | ◐ | ◐ | ◐ | ◐ | ◐ | ✔ esperado (Pixel suporta) ? | ◐ ? | ◐ ? |
-| DISALLOW_USB_FILE_TRANSFER | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| DISALLOW_USB_FILE_TRANSFER | ✔ | ✔ | ✔ emulador | ✔ | ✔ emulador | ✔ | ✔ | ✔ | ✔ |
 | reboot() | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
 | wipeDevice() | ✖ (usa wipeData) | ✖ (wipeData) | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
 | Chave auth-bound (prova de desbloqueio) | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ (StrongBox) | ✔ (TEE/Knox) ? | ✔ (TEE) ? |
