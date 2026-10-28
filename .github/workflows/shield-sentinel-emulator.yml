@@ -59,7 +59,12 @@ jobs:
           profile: pixel_6
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
           disable-animations: true
-          script: REQUIRE_DO=${{ matrix.require_do }} shield-sentinel/tools/emulator/smoke-test.sh shield-sentinel/app/build/outputs/apk/debug/app-debug.apk emulator-results
+          script: |
+            REQUIRE_DO=${{ matrix.require_do }} shield-sentinel/tools/emulator/smoke-test.sh shield-sentinel/app/build/outputs/apk/debug/app-debug.apk emulator-results
+            cd shield-sentinel && ./gradlew --no-daemon :app:connectedDebugAndroidTest ; rc=$?
+            mkdir -p ../emulator-results/androidTest && cp -r app/build/outputs/androidTest-results/connected/. ../emulator-results/androidTest/ 2>/dev/null || true
+            cp -r app/build/reports/androidTests/connected/. ../emulator-results/androidTest/report/ 2>/dev/null || true
+            exit $rc
 
       - uses: actions/upload-artifact@v4
         if: always()

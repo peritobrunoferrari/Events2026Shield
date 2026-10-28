@@ -14,6 +14,7 @@ android {
         targetSdk = (project.property("sentinelTargetSdk") as String).toInt()
         versionCode = 1
         versionName = "0.1.0-alpha"
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildFeatures {
@@ -55,4 +56,8 @@ dependencies {
     implementation(libs.zxing.core)
 
     testImplementation(libs.junit)
+    androidTestImplementation(libs.androidx.test.runner)
+    androidTestImplementation(libs.androidx.test.rules)
+    androidTestImplementation(libs.androidx.test.ext.junit)
+    androidTestImplementation(libs.junit)
 }
