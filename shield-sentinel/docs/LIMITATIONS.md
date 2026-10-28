@@ -18,3 +18,5 @@
 16. **PolicyUpdateReceiver (API 34+)** registra o resultado assíncrono na auditoria e dispara o Watchdog em caso de conflito; em Android 12/13 esse retorno não existe e o estado é apenas relido periodicamente.
 17. **SDK 37 com versão menor.** O pacote `platforms;android-37` não existe; o Compose 1.12 exige compileSdk 37.1 (`compileSdkMinor`). O código usa apenas APIs ≤ 36 (AdvancedProtectionManager é a mais recente); a validação de comportamento em Android 17 depende de aparelho/emulador com a imagem final.
 18. **Prova de desbloqueio após troca de credencial**: a chave auth-bound é invalidada e recriada; o desbloqueio seguinte conta normalmente.
+
+19. **Sem perfil de trabalho nem Private Space no modo Device Owner.** O Android bloqueia ambos em aparelho totalmente gerenciado (`DISALLOW_ADD_MANAGED_PROFILE` e `DISALLOW_ADD_PRIVATE_PROFILE` padrão `true` com DO, não alteráveis). Um "cofre" para WhatsApp e apps sensíveis exige o modo Profile Owner, planejado em `docs/ROADMAP.md` item 1, sem `reboot()` nesse modo.

@@ -95,6 +95,7 @@ O workflow `.github/workflows/shield-sentinel-android.yml` executa tudo isso e p
 - [docs/TEST_PLAN.md](docs/TEST_PLAN.md) — plano de testes
 - [docs/COMPATIBILITY_MATRIX.md](docs/COMPATIBILITY_MATRIX.md) — compatibilidade (Pixel / Samsung / Motorola / Android 12–17)
 - [docs/LIMITATIONS.md](docs/LIMITATIONS.md) — limitações documentadas
+- [docs/ROADMAP.md](docs/ROADMAP.md) — próximas atualizações (prompts autocontidos; item 1: modo "Cofre" com perfil gerenciado)
 
 ## Conceitos-chave
 
