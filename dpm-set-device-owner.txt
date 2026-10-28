@@ -1,0 +1,2 @@
+Success: Device owner set to package com.shieldpericias.sentinel/.deviceowner.SentinelDeviceAdminReceiver
+Active admin set to component com.shieldpericias.sentinel/.deviceowner.SentinelDeviceAdminReceiver

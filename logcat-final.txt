@@ -1,0 +1,1028 @@
+--------- beginning of system
+10-28 16:56:23.802   508   716 D CompatibilityChangeReporter: Compat change id reported: 161252188; UID 10141; state: DISABLED
+10-28 16:56:23.802   508   716 W ActivityTaskManager: callingPackage for (uid=2000, pid=2412) has no WPC
+10-28 16:56:23.802   508   716 D CompatibilityChangeReporter: Compat change id reported: 244637991; UID 2000; state: ENABLED
+10-28 16:56:23.803   508   716 D CompatibilityChangeReporter: Compat change id reported: 265464455; UID 10141; state: DISABLED
+10-28 16:56:23.803   508   716 D CompatibilityChangeReporter: Compat change id reported: 265452344; UID 10141; state: DISABLED
+10-28 16:56:23.803   508   716 D CompatibilityChangeReporter: Compat change id reported: 266124927; UID 10141; state: DISABLED
+10-28 16:56:23.804   508   716 D CompatibilityChangeReporter: Compat change id reported: 265451093; UID 10141; state: DISABLED
+10-28 16:56:23.804   508   716 D CompatibilityChangeReporter: Compat change id reported: 265456536; UID 10141; state: DISABLED
+10-28 16:56:23.804   508   716 D CompatibilityChangeReporter: Compat change id reported: 255940284; UID 10141; state: DISABLED
+10-28 16:56:23.804   508   716 D CompatibilityChangeReporter: Compat change id reported: 236283604; UID 10141; state: DISABLED
+10-28 16:56:23.805   508   716 D CompatibilityChangeReporter: Compat change id reported: 263959004; UID 10141; state: DISABLED
+10-28 16:56:23.805   508   716 D CompatibilityChangeReporter: Compat change id reported: 264304459; UID 10141; state: DISABLED
+10-28 16:56:23.805   508   716 D CompatibilityChangeReporter: Compat change id reported: 264301586; UID 10141; state: DISABLED
+10-28 16:56:23.805   508   716 D CompatibilityChangeReporter: Compat change id reported: 254631730; UID 10141; state: DISABLED
+10-28 16:56:23.805   508   716 D CompatibilityChangeReporter: Compat change id reported: 273509367; UID 10141; state: DISABLED
+10-28 16:56:23.805   508   716 D CompatibilityChangeReporter: Compat change id reported: 263259275; UID 10141; state: DISABLED
+10-28 16:56:23.805   508   716 D CompatibilityChangeReporter: Compat change id reported: 174042980; UID 10141; state: DISABLED
+10-28 16:56:23.806   508   716 D CompatibilityChangeReporter: Compat change id reported: 174042936; UID 10141; state: DISABLED
+10-28 16:56:23.806   508   716 D CompatibilityChangeReporter: Compat change id reported: 181136395; UID 10141; state: DISABLED
+10-28 16:56:23.807   508   716 D CompatibilityChangeReporter: Compat change id reported: 194480991; UID 10141; state: ENABLED
+10-28 16:56:23.814   508   716 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10141; state: DISABLED
+10-28 16:56:23.814   508   716 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10141; state: DISABLED
+10-28 16:56:23.814   508   716 D CompatibilityChangeReporter: Compat change id reported: 197654537; UID 10141; state: ENABLED
+10-28 16:56:23.815   508   716 D CompatibilityChangeReporter: Compat change id reported: 205907456; UID 10141; state: ENABLED
+10-28 16:56:23.825   508   716 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.shieldpericias.sentinel/.MainActivity (has extras)} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+10-28 16:56:23.837   798   853 V WindowManagerShell: Transition requested: android.os.BinderProxy@400688a TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=8 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.shieldpericias.sentinel/.MainActivity } baseActivity=ComponentInfo{com.shieldpericias.sentinel/com.shieldpericias.sentinel.MainActivity} topActivity=ComponentInfo{com.shieldpericias.sentinel/com.shieldpericias.sentinel.MainActivity} origActivity=null realActivity=ComponentInfo{com.shieldpericias.sentinel/com.shieldpericias.sentinel.MainActivity} numActivities=1 lastActiveTime=40577 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@8c2befb} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{23dfb18 com.shieldpericias.sentinel.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+--------- beginning of main
+10-28 16:56:23.860   798   810 W ndroid.systemui: Cleared Reference was only reachable from finalizer (only reported once)
+10-28 16:56:23.866   798   874 D SplashScreenView: Build android.window.SplashScreenView{3756971 V.E...... ......ID 0,0-0,0}
+10-28 16:56:23.866   798   874 D SplashScreenView: Icon: view: android.widget.ImageView{d848356 V.ED..... ......I. 0,0-0,0 #10204f0 android:id/splashscreen_icon_view} drawable: com.android.wm.shell.startingsurface.SplashscreenIconDrawableFactory$ImmobileIconDrawable@bf44fd7 size: 420
+10-28 16:56:23.866   798   874 D SplashScreenView: Branding: view: android.view.View{ea3b0c4 G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+10-28 16:56:23.870  2364  2416 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+10-28 16:56:23.871  2364  2416 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+10-28 16:56:23.872   798   853 W Looper  : Slow dispatch took 35ms wmshell.main h=android.os.Handler c=com.android.wm.shell.transition.Transitions$TransitionPlayerImpl$$ExternalSyntheticLambda1@6ab548e m=0
+10-28 16:56:23.872   798   853 W Looper  : Slow delivery took 34ms wmshell.main h=android.os.Handler c=null m=16
+10-28 16:56:23.872   798   853 W Looper  : Drained
+10-28 16:56:23.873  2364  2416 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+10-28 16:56:23.875   508  2044 D CoreBackPreview: Window{3fa9bcd u0 Splash Screen com.shieldpericias.sentinel}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@a2227c9, mPriority=0, mIsAnimationCallback=false}
+10-28 16:56:23.879   389   389 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-28 16:56:23.984  1084  1628 D EGL_emulation: app_time_stats: avg=5346.99ms min=5346.99ms max=5346.99ms count=1
+10-28 16:56:24.097  2364  2364 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10141; state: DISABLED
+10-28 16:56:24.099  2364  2364 W OpenGLRenderer: Unknown dataspace 0
+10-28 16:56:24.120   798   853 V WindowManagerShell: onTransitionReady android.os.BinderProxy@400688a: {id=8 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@4ae4aa7} m=OPEN f=NONE leash=Surface(name=Task=8)/@0xc889ca8 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@d1edb54} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x7d613c1 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-28 16:56:24.120   798   853 V WindowManagerShell: Playing animation for (#8)android.os.BinderProxy@400688a@0
+10-28 16:56:24.120   798   853 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@d01af49
+10-28 16:56:24.120   798   853 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@896104e
+10-28 16:56:24.120   798   853 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@b30e56f
+10-28 16:56:24.120   798   853 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@c93b27c
+10-28 16:56:24.121   798   853 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+10-28 16:56:24.121   798   853 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@32cf705
+10-28 16:56:24.121   798   853 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@46e35a
+10-28 16:56:24.121   798   853 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@910698b
+10-28 16:56:24.121   798   853 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=8 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@4ae4aa7} m=OPEN f=NONE leash=Surface(name=Task=8)/@0xc889ca8 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@d1edb54} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x7d613c1 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-28 16:56:24.121   798   853 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@3ef2afd, appThread = android.app.IApplicationThread$Stub$Proxy@89c93f2, debugName = QuickstepLaunchHome }}
+10-28 16:56:24.121   798   853 V WindowManagerShell:  Delegate animation for #8 to null
+10-28 16:56:24.121   798   853 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@5ffdb26
+10-28 16:56:24.121   798   853 V WindowManagerShell: start default transition animation, info = {id=8 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@4ae4aa7} m=OPEN f=NONE leash=Surface(name=Task=8)/@0xc889ca8 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@d1edb54} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x7d613c1 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-28 16:56:24.121   798   853 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@3858c0 animAttr=0x13 type=OPEN isEntrance=false
+10-28 16:56:24.123   798   853 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@2aa40ec animAttr=0x12 type=OPEN isEntrance=true
+10-28 16:56:24.123   798   853 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@5ffdb26
+10-28 16:56:24.124   508   527 V WindowManager: Sent Transition #8 createdAt=10-28 16:56:23.807 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=8 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.shieldpericias.sentinel/.MainActivity } baseActivity=ComponentInfo{com.shieldpericias.sentinel/com.shieldpericias.sentinel.MainActivity} topActivity=ComponentInfo{com.shieldpericias.sentinel/com.shieldpericias.sentinel.MainActivity} origActivity=null realActivity=ComponentInfo{com.shieldpericias.sentinel/com.shieldpericias.sentinel.MainActivity} numActivities=1 lastActiveTime=40577 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{a854383 Task{32d0db8 #8 type=standard A=10141:com.shieldpericias.sentinel}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{fa1d900 com.shieldpericias.sentinel.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-28 16:56:24.124   508   527 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+10-28 16:56:24.124   508   527 V WindowManager:     info={id=8 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{a854383 Task{32d0db8 #8 type=standard A=10141:com.shieldpericias.sentinel}}} m=OPEN f=NONE leash=Surface(name=Task=8)/@0x6b7123d sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{e079539 Task{72051c1 #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xba109f2 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-28 16:56:24.171   388   395 W GpuWork : Failed to attach bpf program to power/gpu_work_period tracepoint [2(No such file or directory)]
+10-28 16:56:24.220   798   853 W Looper  : Slow delivery took 81ms wmshell.main h=android.os.Handler c=com.android.wm.shell.transition.DefaultTransitionHandler$$ExternalSyntheticLambda7@645cd6d m=0
+10-28 16:56:24.220   798   853 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#8)android.os.BinderProxy@400688a@0
+10-28 16:56:24.221   508   527 V WindowManager: Finish Transition #8: created at 10-28 16:56:23.807 collect-started=0.054ms request-sent=17.9ms started=64.07ms ready=64.054ms sent=311.411ms finished=413.397ms
+10-28 16:56:24.222   798   853 V WindowManagerShell: Track 0 became idle
+10-28 16:56:24.222   798   853 V WindowManagerShell: All active transition animations finished
+10-28 16:56:24.234   798   853 W Looper  : Drained
+10-28 16:56:24.360  1567  1567 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10072; state: ENABLED
+10-28 16:56:24.360  1567  1567 I ProvidersCache: Updating roots due to change on user 0at content://com.android.externalstorage.documents
+10-28 16:56:24.385  2364  2364 D CompatibilityChangeReporter: Compat change id reported: 193247900; UID 10141; state: ENABLED
+10-28 16:56:24.476   798   876 D EGL_emulation: app_time_stats: avg=754.06ms min=671.67ms max=836.46ms count=2
+10-28 16:56:24.478   798   876 D EGL_emulation: app_time_stats: avg=3285.49ms min=615.62ms max=5955.36ms count=2
+10-28 16:56:24.593   508  2044 D CoreBackPreview: Window{8b98fe7 u0 com.shieldpericias.sentinel/com.shieldpericias.sentinel.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@49b271, mPriority=0, mIsAnimationCallback=false}
+10-28 16:56:24.666   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.666   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.667   508  2044 I UsbPortManager: USB HAL AIDL version: USB_HAL_V2_0
+10-28 16:56:24.667   508  2044 I UsbPortManager: USB HAL AIDL version: USB_HAL_V2_0
+10-28 16:56:24.668   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.668   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.669   508  2036 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.669   508  2036 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.670   508  2036 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.670   508  2036 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.671   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.671   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.673   389   602 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10141 pid=0
+10-28 16:56:24.673   389   602 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10141 => denied (145 us)
+10-28 16:56:24.673   389   602 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10141 pid=0
+10-28 16:56:24.673   389   602 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10141 => denied (241 us)
+10-28 16:56:24.673   389   602 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10141 pid=0
+10-28 16:56:24.673   389   602 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10141 => denied (113 us)
+10-28 16:56:24.674   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.674   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.675   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.675   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.676   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.676   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.677   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.677   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.678   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.678   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.679   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.679   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.679  2364  2415 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+10-28 16:56:24.690   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.690   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.692   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.692   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.692   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.692   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.695   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.695   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.700   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.700   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.701   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.701   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.702   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.702   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.703   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.703   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.703   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.704   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.704   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.705   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.706   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.706   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.707   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.707   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.708   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.708   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.709   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.709   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.710   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.710   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.711   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.711   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+--------- beginning of kernel
+10-28 16:56:24.918     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+10-28 16:56:24.722   133   133 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-28 16:56:24.722  2364  2415 I Gralloc4: mapper 4.x is not supported
+10-28 16:56:24.726   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.726   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.727   508  2044 D CompatibilityChangeReporter: Compat change id reported: 226439802; UID 10141; state: ENABLED
+10-28 16:56:24.727   508  2044 D CompatibilityChangeReporter: Compat change id reported: 218533173; UID 10141; state: ENABLED
+10-28 16:56:24.768   508  2044 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:24.768   508  2044 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:24.938   508  2407 W KeySyncTask: No recovery agent initialized for user 0
+10-28 16:56:25.006   798   798 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-28 16:56:25.019   508   717 I system_server: Explicit concurrent copying GC freed 138033(6526KB) AllocSpace objects, 21(516KB) LOS objects, 49% free, 15MB/30MB, paused 68us,73us total 69.228ms
+10-28 16:56:25.020   508   518 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-28 16:56:25.020   508   518 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-28 16:56:25.023   508   529 I DropBoxManagerService: add tag=system_server_strictmode isTagEnabled=true flags=0x2
+10-28 16:56:25.044   508  2044 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10141 pid=0
+10-28 16:56:25.044   508  2044 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10141 => denied (149 us)
+10-28 16:56:25.044   508  2044 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10141 pid=0
+10-28 16:56:25.044   508  2044 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10141 => denied (75 us)
+10-28 16:56:25.044   508  2044 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10141 pid=0
+10-28 16:56:25.044   508  2044 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10141 => denied (35 us)
+10-28 16:56:25.045  2364  2364 W ricias.sentinel: Accessing hidden method Landroid/os/SystemProperties;->addChangeCallback(Ljava/lang/Runnable;)V (unsupported, reflection, allowed)
+10-28 16:56:25.054   508   527 W ziparchive: Unable to open '/data/app/~~O6wV_3u3dedF2TeX7as3wQ==/com.shieldpericias.sentinel-xAHIz0JOFFec5pU84B00PQ==/base.dm': No such file or directory
+10-28 16:56:25.055   508   527 I ActivityTaskManager: Displayed com.shieldpericias.sentinel/.MainActivity for user 0: +1s251ms
+10-28 16:56:25.082  2364  2398 I OpenGLRenderer: Davey! duration=937ms; Flags=1, FrameTimelineVsyncId=3246, IntendedVsync=40864237865, Vsync=40864237865, InputEventId=0, HandleInputStart=40880473625, AnimationStart=40880477962, PerformTraversalsStart=40880480527, DrawStart=41506182946, FrameDeadline=40880904531, FrameInterval=40880442046, FrameStartTime=16666666, SyncQueued=41512494251, SyncStart=41512780144, IssueDrawCommandsStart=41513230253, SwapBuffers=41664352537, FrameCompleted=41802063401, DequeueBufferDuration=3406, QueueBufferDuration=1851192, GpuCompleted=41802063401, SwapBuffersCompleted=41795122148, DisplayPresentTime=0, CommandSubmissionCompleted=41664352537, 
+10-28 16:56:25.092   798   873 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@e8a74af
+10-28 16:56:25.093   508  2036 W InputManager-JNI: Input channel object '3fa9bcd Splash Screen com.shieldpericias.sentinel (client)' was disposed without first being removed with the input manager!
+10-28 16:56:25.095   508  2044 D CoreBackPreview: Window{3fa9bcd u0 Splash Screen com.shieldpericias.sentinel EXITING}: Setting back callback null
+10-28 16:56:25.099  1084  1127 I ImeTracker: com.android.launcher3:f3936bdd: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+10-28 16:56:25.103   508  1186 I ImeTracker: com.android.launcher3:f3936bdd: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-28 16:56:25.107  2364  2364 I Choreographer: Skipped 53 frames!  The application may be doing too much work on its main thread.
+10-28 16:56:25.138   508   717 I system_server: Explicit concurrent copying GC freed 2637(213KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 15MB/30MB, paused 37us,66us total 114.623ms
+10-28 16:56:25.156   508  2044 D CompatibilityChangeReporter: Compat change id reported: 214016041; UID 10141; state: ENABLED
+10-28 16:56:25.157   508  2044 I ImeTracker: com.shieldpericias.sentinel:f029494e: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-28 16:56:25.157   508  2044 I ImeTracker: com.shieldpericias.sentinel:f029494e: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-28 16:56:25.295  1567  1567 I ProvidersCache: Updating roots due to change on user 0at content://com.android.externalstorage.documents
+10-28 16:56:25.399  1567  1567 I ProvidersCache: Updating roots due to change on user 0at content://com.android.externalstorage.documents
+10-28 16:56:25.492  1567  1567 I ProvidersCache: Updating roots due to change on user 0at content://com.android.providers.media.documents/root
+10-28 16:56:25.505  1567  1567 I ProvidersCache: Updating roots due to change on user 0at content://com.android.externalstorage.documents
+10-28 16:56:26.013   508   560 I AppsFilter: interaction: PackageSetting{77f9b6 com.shieldpericias.sentinel/10141} -> PackageSetting{9eef6b7 com.android.camera2/10104} BLOCKED
+10-28 16:56:26.013   508   560 I AppsFilter: interaction: PackageSetting{77f9b6 com.shieldpericias.sentinel/10141} -> PackageSetting{274fe24 com.android.calendar/10100} BLOCKED
+10-28 16:56:26.013   508   560 I AppsFilter: interaction: PackageSetting{77f9b6 com.shieldpericias.sentinel/10141} -> PackageSetting{5175d8d com.android.rkpdapp/10126} BLOCKED
+10-28 16:56:26.017   996   996 D CarrierSvcBindHelper: onPackageModified: com.android.messaging
+10-28 16:56:26.018   996   996 D CarrierSvcBindHelper: No carrier app for: 0
+10-28 16:56:26.019   798   798 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+10-28 16:56:26.020   969   969 V MediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+10-28 16:56:26.020   969   969 V MediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+10-28 16:56:26.020   801   834 I PermissionControllerServiceImpl: Updating user sensitive for uid 10106
+10-28 16:56:26.022   508   606 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS
+10-28 16:56:26.023   508   536 D AppWidgetServiceImpl: Provider info from ComponentInfo{com.android.messaging/com.android.messaging.widget.BugleWidgetProvider} won't be persisted.
+10-28 16:56:26.023   508   536 D AppWidgetServiceImpl: Provider info from ComponentInfo{com.android.messaging/com.android.messaging.widget.WidgetConversationProvider} won't be persisted.
+10-28 16:56:26.027   801   834 I PermissionControllerServiceImpl: Updating user sensitive for uid 10104
+10-28 16:56:26.031   508   606 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS
+10-28 16:56:26.035   996  1266 D ImsResolver: maybeAddedImsService, packageName: com.android.messaging
+10-28 16:56:26.029   798   875 D StylusManager: Stylus InputDevice changed: 13 virtio_input_multi_touch_10
+10-28 16:56:26.037   996   996 D CarrierSvcBindHelper: onPackageModified: com.android.camera2
+10-28 16:56:26.037   996   996 D CarrierSvcBindHelper: No carrier app for: 0
+10-28 16:56:26.038   801   834 I PermissionControllerServiceImpl: Updating user sensitive for uid 10059
+10-28 16:56:26.039   798   875 D StylusManager: Stylus InputDevice changed: 14 virtio_input_multi_touch_11
+10-28 16:56:26.040   508   606 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS
+10-28 16:56:26.043   969   969 V MediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+10-28 16:56:26.043   969   969 V MediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+10-28 16:56:26.043   969   969 V MediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+10-28 16:56:26.044   969   969 V MediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+10-28 16:56:26.044   969   969 V MediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+10-28 16:56:26.044   969   969 V MediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+10-28 16:56:26.044   969   969 V MediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+10-28 16:56:26.044   969   969 V MediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+10-28 16:56:26.047   996   996 D CarrierSvcBindHelper: onPackageModified: com.android.statementservice
+10-28 16:56:26.047   996  1266 D ImsResolver: maybeAddedImsService, packageName: com.android.camera2
+10-28 16:56:26.048   996   996 D CarrierSvcBindHelper: No carrier app for: 0
+10-28 16:56:26.049   798   875 D StylusManager: Stylus InputDevice changed: 12 virtio_input_multi_touch_9
+10-28 16:56:26.050   798   875 D StylusManager: Stylus InputDevice changed: 7 virtio_input_multi_touch_4
+10-28 16:56:26.050  1084  1084 D b/267448330: provider: ComponentInfo{com.android.quicksearchbox/com.android.quicksearchbox.SearchWidgetProvider}, paddedSizes: [382.09525x131.42857, 382.09525x131.42857, 684.9524x61.333332, 684.9524x61.333332], getMinMaxSizes: Rect(382, 61 - 684, 131)
+10-28 16:56:26.054   798   875 D StylusManager: Stylus InputDevice changed: 11 virtio_input_multi_touch_8
+10-28 16:56:26.055   508   536 W VoiceInteractionManager: no available voice recognition services found for user 0
+10-28 16:56:26.056   996   996 D CarrierSvcBindHelper: onPackageModified: com.android.calendar
+10-28 16:56:26.056   996   996 D CarrierSvcBindHelper: No carrier app for: 0
+10-28 16:56:26.057   996  1266 D ImsResolver: maybeAddedImsService, packageName: com.android.statementservice
+10-28 16:56:26.059   996   996 D CarrierSvcBindHelper: onPackageModified: com.android.rkpdapp
+10-28 16:56:26.059   996  1266 D ImsResolver: maybeAddedImsService, packageName: com.android.calendar
+10-28 16:56:26.060   996   996 D CarrierSvcBindHelper: No carrier app for: 0
+10-28 16:56:26.063   798   798 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+10-28 16:56:26.064   798   798 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+10-28 16:56:26.065   798   798 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+10-28 16:56:26.069   798   875 D StylusManager: Stylus InputDevice changed: 10 virtio_input_multi_touch_7
+10-28 16:56:26.070   801   834 I PermissionControllerServiceImpl: Updating user sensitive for uid 10100
+10-28 16:56:26.070   798   875 D StylusManager: Stylus InputDevice changed: 6 virtio_input_multi_touch_3
+10-28 16:56:26.070   798   875 D StylusManager: Stylus InputDevice changed: 9 virtio_input_multi_touch_6
+10-28 16:56:26.071   798   875 D StylusManager: Stylus InputDevice changed: 5 virtio_input_multi_touch_2
+10-28 16:56:26.071  1084  1084 D b/267448330: provider: ComponentInfo{com.android.quicksearchbox/com.android.quicksearchbox.SearchWidgetProvider}, paddedSizes: [382.09525x131.42857, 382.09525x131.42857, 684.9524x61.333332, 684.9524x61.333332], getMinMaxSizes: Rect(382, 61 - 684, 131)
+10-28 16:56:26.071   798   875 D StylusManager: Stylus InputDevice changed: 8 virtio_input_multi_touch_5
+10-28 16:56:26.071   798   875 D StylusManager: Stylus InputDevice changed: 4 virtio_input_multi_touch_1
+10-28 16:56:26.072   798   875 D StylusManager: Stylus InputDevice changed: 13 virtio_input_multi_touch_10
+10-28 16:56:26.072   798   875 D StylusManager: Stylus InputDevice changed: 14 virtio_input_multi_touch_11
+10-28 16:56:26.077   798   798 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+10-28 16:56:26.077   996  1266 D ImsResolver: maybeAddedImsService, packageName: com.android.rkpdapp
+10-28 16:56:26.078   508   606 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS
+10-28 16:56:26.078   801   834 I PermissionControllerServiceImpl: Updating user sensitive for uid 10126
+10-28 16:56:26.078   508   536 W VoiceInteractionManager: no available voice recognition services found for user 0
+10-28 16:56:26.082   508   606 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS
+10-28 16:56:26.085   508   536 W VoiceInteractionManager: no available voice recognition services found for user 0
+10-28 16:56:26.086   508   536 D AppWidgetServiceImpl: Provider info from ComponentInfo{com.android.calendar/com.android.calendar.widget.CalendarAppWidgetProvider} won't be persisted.
+10-28 16:56:26.087   508   536 W VoiceInteractionManager: no available voice recognition services found for user 0
+10-28 16:56:26.088   798   875 D StylusManager: Stylus InputDevice changed: 13 virtio_input_multi_touch_10
+10-28 16:56:26.088   798   875 D StylusManager: Stylus InputDevice changed: 14 virtio_input_multi_touch_11
+10-28 16:56:26.088   798   875 D StylusManager: Stylus InputDevice changed: 12 virtio_input_multi_touch_9
+10-28 16:56:26.088   508   536 W VoiceInteractionManager: no available voice recognition services found for user 0
+10-28 16:56:26.090   798   875 D StylusManager: Stylus InputDevice changed: 7 virtio_input_multi_touch_4
+10-28 16:56:26.090   798   875 D StylusManager: Stylus InputDevice changed: 11 virtio_input_multi_touch_8
+10-28 16:56:26.091   798   875 D StylusManager: Stylus InputDevice changed: 10 virtio_input_multi_touch_7
+10-28 16:56:26.091   798   875 D StylusManager: Stylus InputDevice changed: 6 virtio_input_multi_touch_3
+10-28 16:56:26.092   798   875 D StylusManager: Stylus InputDevice changed: 9 virtio_input_multi_touch_6
+10-28 16:56:26.092   798   875 D StylusManager: Stylus InputDevice changed: 5 virtio_input_multi_touch_2
+10-28 16:56:26.092   798   875 D StylusManager: Stylus InputDevice changed: 8 virtio_input_multi_touch_5
+10-28 16:56:26.093   798   875 D StylusManager: Stylus InputDevice changed: 4 virtio_input_multi_touch_1
+10-28 16:56:26.827   508  1876 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+10-28 16:56:26.911   508   592 D ActivityManager: freezing 1191 com.android.cellbroadcastreceiver
+10-28 16:56:26.955   508   529 I DropBoxManagerService: add tag=system_app_strictmode isTagEnabled=true flags=0x2
+10-28 16:56:26.973   508   592 D ActivityManager: freezing 1490 com.android.carrierdefaultapp
+10-28 16:56:27.028  1567  1567 I ProvidersCache: Updating roots due to change on user 0at content://com.android.externalstorage.documents
+10-28 16:56:27.030  1567  1567 I ProvidersCache: Updating roots due to change on user 0at content://com.android.externalstorage.documents
+10-28 16:56:27.259   508   716 W OverlayManager: service 'idmap' died
+10-28 16:56:27.455     0     0 I init    : Sending signal 9 to service 'idmap2d' (pid 444) process group...
+10-28 16:56:27.462     0     0 I libprocessgroup: Successfully killed process cgroup uid 1000 pid 444 in 5ms
+10-28 16:56:27.464     0     0 I init    : Control message: Processed ctl.stop for 'idmap2d' from pid: 508 (system_server)
+10-28 16:56:27.465     0     0 I init    : Service 'idmap2d' (pid 444) received signal 9
+10-28 16:56:27.340   508   592 D ActivityManager: freezing 1630 com.android.printspooler
+10-28 16:56:27.648   508   592 D ActivityManager: freezing 1780 com.android.quicksearchbox
+10-28 16:56:28.245  2364  2466 D ProfileInstaller: Installing profile for com.shieldpericias.sentinel
+10-28 16:56:28.879  1001  1012 W ndroid.settings: Cleared Reference was only reachable from finalizer (only reported once)
+10-28 16:56:29.185  2472  2472 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-28 16:56:29.185  2472  2472 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-28 16:56:29.187   389   602 W ServiceManagerCppClient: Permission failure: android.permission.CAPTURE_BLACKOUT_CONTENT from uid=2000 pid=2472
+10-28 16:56:29.187   389   602 D PermissionCache: checking android.permission.CAPTURE_BLACKOUT_CONTENT for uid=2000 => denied (236 us)
+10-28 16:56:29.391     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+10-28 16:56:29.198   133   133 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-28 16:56:29.199  2472  2473 I Gralloc4: mapper 4.x is not supported
+10-28 16:56:29.605     0     0 I logd    : logdr: UID=2000 GID=2000 PID=2474 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns
+10-28 16:56:29.430   508  2013 W ActivityTaskManager: callingPackage for (uid=2000, pid=2479) has no WPC
+10-28 16:56:29.433   508  2013 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.shieldpericias.sentinel/.MainActivity (has extras)} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=3
+10-28 16:56:29.434   798  2132 D KeyguardService: setOccluded(false)
+10-28 16:56:29.434   798  2132 D KeyguardViewMediator: setOccluded(false)
+10-28 16:56:29.436   798   853 D WindowManagerShell: onActivityRestartAttempt: ComponentInfo{com.shieldpericias.sentinel/com.shieldpericias.sentinel.MainActivity}
+10-28 16:56:29.436   798   798 D KeyguardViewMediator: handleSetOccluded(false)
+10-28 16:56:29.456   508   530 D OomAdjuster: Not killing cached processes
+10-28 16:56:29.470  2364  2364 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+10-28 16:56:29.470  2364  2364 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+10-28 16:56:29.541   508  2013 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:29.541   508  2013 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:29.542   508  2013 I UsbPortManager: USB HAL AIDL version: USB_HAL_V2_0
+10-28 16:56:29.544   508  2013 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:29.544   508  2013 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:29.574  2364  2415 D EGL_emulation: app_time_stats: avg=1510.40ms min=279.35ms max=3837.78ms count=3
+10-28 16:56:30.239  1567  1567 I ProvidersCache: Updating roots due to change on user 0at content://com.android.providers.media.documents/root
+10-28 16:56:30.395   508   592 D ActivityManager: freezing 1854 com.android.externalstorage
+10-28 16:56:30.772   798   798 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+10-28 16:56:31.032  1411  1429 W putmethod.latin: Cleared Reference was only reachable from finalizer (only reported once)
+10-28 16:56:31.190   508   585 D ActivityManager: sync unfroze 1854 com.android.externalstorage for 10
+10-28 16:56:31.302   508  2034 D WifiNl80211Manager: Scan result ready event
+10-28 16:56:31.302   508  2034 D WifiNative: Scan result ready event
+10-28 16:56:31.994   508   767 I SdkSandboxManager: Reconciling sdk data package directories for 0
+10-28 16:56:32.053  1365  1374 D StrictMode: StrictMode policy violation: android.os.strictmode.SqliteObjectLeakedViolation: Finalizing a Cursor that has not been deactivated or closed. database = /data/user/0/com.android.providers.contacts/databases/contacts2.db, table = raw_contacts, query = SELECT contacts_view._id AS _id, contacts_view.display_name AS display_name, contacts_view.photo_thumb_uri AS photo_thumb_uri, data1 AS number, data2 AS type, data3 AS label, contacts_view.lookup AS lookup FROM raw_contacts JOIN view_contacts as contacts_view ON (contacts_view._id = raw_contacts.contact_id) JOIN (SELECT data_id,normalized_number FROM phone_lookup WHERE (phone_lookup.min_match = '7654321')) AS lookup ON lookup.data_id=data._id JOIN data ON data.raw_contact_id=raw_contacts._id WHERE (PHONE_NUMBERS_EQUAL(data.data1, '+15551234567', 0, 7)) ORDER BY  length(lookup.normalized_number) DESC
+10-28 16:56:32.053  1365  1374 D StrictMode: 	at android.os.StrictMode.onSqliteObjectLeaked(StrictMode.java:2222)
+10-28 16:56:32.053  1365  1374 D StrictMode: 	at android.database.sqlite.SQLiteCursor.finalize(SQLiteCursor.java:282)
+10-28 16:56:32.053  1365  1374 D StrictMode: 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:339)
+10-28 16:56:32.053  1365  1374 D StrictMode: 	at java.lang.Daemons$FinalizerDaemon.processReference(Daemons.java:324)
+10-28 16:56:32.053  1365  1374 D StrictMode: 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:300)
+10-28 16:56:32.053  1365  1374 D StrictMode: 	at java.lang.Daemons$Daemon.run(Daemons.java:145)
+10-28 16:56:32.053  1365  1374 D StrictMode: 	at java.lang.Thread.run(Thread.java:1012)
+10-28 16:56:32.054  1365  1374 D StrictMode: StrictMode policy violation: android.os.strictmode.LeakedClosableViolation: A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at android.os.StrictMode$AndroidCloseGuardReporter.report(StrictMode.java:1994)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at dalvik.system.CloseGuard.warnIfOpen(CloseGuard.java:336)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at android.database.AbstractCursor.finalize(AbstractCursor.java:531)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at android.database.sqlite.SQLiteCursor.finalize(SQLiteCursor.java:291)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:339)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at java.lang.Daemons$FinalizerDaemon.processReference(Daemons.java:324)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:300)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at java.lang.Daemons$Daemon.run(Daemons.java:145)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at java.lang.Thread.run(Thread.java:1012)
+10-28 16:56:32.054  1365  1374 D StrictMode: Caused by: java.lang.Throwable: Explicit termination method 'AbstractCursor.close' not called
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at dalvik.system.CloseGuard.openWithCallSite(CloseGuard.java:288)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at dalvik.system.CloseGuard.open(CloseGuard.java:257)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at android.database.AbstractCursor.<init>(AbstractCursor.java:227)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at android.database.AbstractWindowedCursor.<init>(AbstractWindowedCursor.java:39)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at android.database.sqlite.SQLiteCursor.<init>(SQLiteCursor.java:98)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at android.database.sqlite.SQLiteDirectCursorDriver.query(SQLiteDirectCursorDriver.java:52)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at android.database.sqlite.SQLiteDatabase.rawQueryWithFactory(SQLiteDatabase.java:1714)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at android.database.sqlite.SQLiteQueryBuilder.query(SQLiteQueryBuilder.java:592)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at com.android.providers.contacts.ContactsProvider2.doQuery(ContactsProvider2.java:7543)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at com.android.providers.contacts.ContactsProvider2.queryLocal(ContactsProvider2.java:7249)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at com.android.providers.contacts.ContactsProvider2.queryCorpLookupIfNecessary(ContactsProvider2.java:7728)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at com.android.providers.contacts.ContactsProvider2.queryLookupEnterprise(ContactsProvider2.java:7867)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at com.android.providers.contacts.ContactsProvider2.queryPhoneLookupEnterprise(ContactsProvider2.java:7838)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at com.android.providers.contacts.ContactsProvider2.queryLocal(ContactsProvider2.java:7172)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at com.android.providers.contacts.ContactsProvider2.queryDirectoryIfNecessary(ContactsProvider2.java:5883)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at com.android.providers.contacts.ContactsProvider2.queryInternal(ContactsProvider2.java:5728)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at com.android.providers.contacts.ContactsProvider2.query(ContactsProvider2.java:5673)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at android.content.ContentProvider.query(ContentProvider.java:1692)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at android.content.ContentProvider$Transport.query(ContentProvider.java:292)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:107)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at android.os.Binder.execTransactInternal(Binder.java:1344)
+10-28 16:56:32.054  1365  1374 D StrictMode: 	at android.os.Binder.execTransact(Binder.java:1275)
+10-28 16:56:32.995   508   508 W NotificationHistory: Attempted to add notif for locked/gone/disabled user 0
+10-28 16:56:33.021   798   876 D EGL_emulation: app_time_stats: avg=2099.55ms min=14.10ms max=7731.47ms count=4
+10-28 16:56:33.041   798   875 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+10-28 16:56:33.048   798   875 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+10-28 16:56:33.528  2496  2496 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-28 16:56:33.529  2496  2496 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-28 16:56:33.746     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+10-28 16:56:33.550   133   133 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-28 16:56:33.550  2496  2497 I Gralloc4: mapper 4.x is not supported
+10-28 16:56:33.962     0     0 I logd    : logdr: UID=2000 GID=2000 PID=2498 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns
+10-28 16:56:33.788   508  2178 W ActivityTaskManager: callingPackage for (uid=2000, pid=2503) has no WPC
+10-28 16:56:33.790   798  1310 D KeyguardService: setOccluded(false)
+10-28 16:56:33.790   798  1310 D KeyguardViewMediator: setOccluded(false)
+10-28 16:56:33.790   798   798 D KeyguardViewMediator: handleSetOccluded(false)
+10-28 16:56:33.791   508  2178 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.shieldpericias.sentinel/.MainActivity (has extras)} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=3
+10-28 16:56:33.791   798   853 D WindowManagerShell: onActivityRestartAttempt: ComponentInfo{com.shieldpericias.sentinel/com.shieldpericias.sentinel.MainActivity}
+10-28 16:56:33.868   508  2490 I UsbPortManager: USB HAL AIDL version: USB_HAL_V2_0
+10-28 16:56:33.868   508  2490 I UsbPortManager: USB HAL AIDL version: USB_HAL_V2_0
+10-28 16:56:33.869   508  2490 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:33.869   508  2490 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:33.870   508  2490 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:33.870   508  2490 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:33.871   508  2490 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:33.871   508  2490 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:33.871   508  2490 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:33.871   508  2490 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:33.872   508  2490 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:33.872   508  2490 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:33.895  2364  2415 D EGL_emulation: app_time_stats: avg=1440.12ms min=120.56ms max=4015.68ms count=3
+10-28 16:56:34.010   798   798 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-28 16:56:34.762   153   895 I keystore2: system/security/keystore2/src/watchdog.rs:319 - Watchdog thread idle -> terminating. Have a great day.
+10-28 16:56:34.925   508   585 D OomAdjuster: Not killing cached processes
+10-28 16:56:37.889  2514  2514 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-28 16:56:37.889  2514  2514 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-28 16:56:37.907   133   133 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-28 16:56:37.907  2514  2515 I Gralloc4: mapper 4.x is not supported
+10-28 16:56:38.100     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+10-28 16:56:38.308     0     0 I logd    : logdr: UID=2000 GID=2000 PID=2516 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns
+10-28 16:56:38.134   508  2013 W ActivityTaskManager: callingPackage for (uid=2000, pid=2521) has no WPC
+10-28 16:56:38.136   798  1310 D KeyguardService: setOccluded(false)
+10-28 16:56:38.136   798  1310 D KeyguardViewMediator: setOccluded(false)
+10-28 16:56:38.137   798   853 D WindowManagerShell: onActivityRestartAttempt: ComponentInfo{com.shieldpericias.sentinel/com.shieldpericias.sentinel.MainActivity}
+10-28 16:56:38.137   508  2013 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.shieldpericias.sentinel/.MainActivity (has extras)} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=3
+10-28 16:56:38.138   798   798 D KeyguardViewMediator: handleSetOccluded(false)
+10-28 16:56:38.217   508  2013 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:38.217   508  2013 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:38.217   508  2013 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:38.217   508  2013 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:38.244  2364  2415 D EGL_emulation: app_time_stats: avg=1449.60ms min=60.31ms max=4112.91ms count=3
+10-28 16:56:38.791   508   530 E BLASTSyncEngine: WM sent Transaction to organized, but never received commit callback. Application ANR likely to follow.
+10-28 16:56:40.018   798   798 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-28 16:56:40.772   798   798 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+10-28 16:56:41.281   508  1622 D OomAdjuster: Not killing cached processes
+10-28 16:56:41.561   508   592 D ActivityManager: freezing 1854 com.android.externalstorage
+10-28 16:56:42.233  2530  2530 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-28 16:56:42.233  2530  2530 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-28 16:56:42.249   133   133 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-28 16:56:42.249  2530  2531 I Gralloc4: mapper 4.x is not supported
+10-28 16:56:42.444     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+10-28 16:56:42.638     0     0 I logd    : logdr: UID=2000 GID=2000 PID=2532 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns
+10-28 16:56:42.462   508  1622 W ActivityTaskManager: callingPackage for (uid=2000, pid=2537) has no WPC
+10-28 16:56:42.465   798  2132 D KeyguardService: setOccluded(false)
+10-28 16:56:42.465   798  2132 D KeyguardViewMediator: setOccluded(false)
+10-28 16:56:42.465   798   798 D KeyguardViewMediator: handleSetOccluded(false)
+10-28 16:56:42.465   508  1622 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.shieldpericias.sentinel/.MainActivity (has extras)} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=3
+10-28 16:56:42.469   798   853 D WindowManagerShell: onActivityRestartAttempt: ComponentInfo{com.shieldpericias.sentinel/com.shieldpericias.sentinel.MainActivity}
+10-28 16:56:42.550   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.550   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.550   508  1622 I UsbPortManager: USB HAL AIDL version: USB_HAL_V2_0
+10-28 16:56:42.551   508  1622 I UsbPortManager: USB HAL AIDL version: USB_HAL_V2_0
+10-28 16:56:42.552   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.552   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.553   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.553   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.554   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.554   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.555   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.555   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.556   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.556   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.557   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.557   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.558   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.558   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.559   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.559   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.559   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.559   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.560   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.560   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.561   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.561   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.561   508   592 D ActivityManager: freezing 1567 com.android.documentsui
+10-28 16:56:42.569   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.569   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.578   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.579   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.580   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.580   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.580   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.580   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.581   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.581   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.582   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.582   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.583  2364  2415 D EGL_emulation: app_time_stats: avg=1446.38ms min=43.07ms max=4155.89ms count=3
+10-28 16:56:42.584   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.584   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.585   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.585   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.586   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.586   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.587   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.587   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.588   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.588   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.588   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.588   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.589   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.589   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.590   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.590   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.591   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.591   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:42.593   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:42.593   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:43.022   798   798 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-28 16:56:43.137   508   530 E BLASTSyncEngine: WM sent Transaction to organized, but never received commit callback. Application ANR likely to follow.
+10-28 16:56:43.250  1001  1001 D BatteryUsageBroadcastReceiver: onReceive:android.intent.action.BATTERY_LEVEL_CHANGED
+10-28 16:56:43.251  1001  1001 D BatteryUsageBroadcastReceiver: fetch data because of event: ACTION_BATTERY_LEVEL_CHANGED
+10-28 16:56:43.251   508  1622 D CompatibilityChangeReporter: Compat change id reported: 161145287; UID 1000; state: ENABLED
+10-28 16:56:43.252  1001  1001 D BatteryUsageBroadcastReceiver: cancel sendBroadcastToFetchUsageData when broadcastDelay is 2339997ms.
+10-28 16:56:44.929   508   592 D ActivityManager: freezing 1878 com.android.traceur
+10-28 16:56:45.466   508   592 D ActivityManager: freezing 1163 com.android.cellbroadcastreceiver.module
+10-28 16:56:45.491   508   592 D ActivityManager: freezing 1817 com.android.imsserviceentitlement
+10-28 16:56:45.523   508   592 D ActivityManager: freezing 1747 com.android.providers.calendar
+10-28 16:56:46.026   798   798 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-28 16:56:46.564  2547  2547 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-28 16:56:46.564  2547  2547 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-28 16:56:46.770     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+10-28 16:56:46.576   133   133 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-28 16:56:46.576  2547  2548 I Gralloc4: mapper 4.x is not supported
+10-28 16:56:46.770   508   592 D ActivityManager: freezing 1992 com.android.camera2
+10-28 16:56:46.781   508   592 D ActivityManager: freezing 1917 com.android.calendar
+10-28 16:56:46.987     0     0 I logd    : logdr: UID=2000 GID=2000 PID=2549 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns
+10-28 16:56:46.813   508  1622 W ActivityTaskManager: callingPackage for (uid=2000, pid=2554) has no WPC
+10-28 16:56:46.815   798  1310 D KeyguardService: setOccluded(false)
+10-28 16:56:46.815   798  1310 D KeyguardViewMediator: setOccluded(false)
+10-28 16:56:46.819   798   798 D KeyguardViewMediator: handleSetOccluded(false)
+10-28 16:56:46.819   508  1622 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.shieldpericias.sentinel/.MainActivity (has extras)} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=3
+10-28 16:56:46.820   508   530 D OomAdjuster: Not killing cached processes
+10-28 16:56:46.820   798   853 D WindowManagerShell: onActivityRestartAttempt: ComponentInfo{com.shieldpericias.sentinel/com.shieldpericias.sentinel.MainActivity}
+10-28 16:56:46.893   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:46.894   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:46.895   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:46.895   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:46.896   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:46.896   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:46.897   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:46.897   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:46.897   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:46.897   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:46.899   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:46.899   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:46.899   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:46.899   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:46.900   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:46.900   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:46.901   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:46.901   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:46.902   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:46.902   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:46.903   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:46.903   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:46.904   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:46.904   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:46.905   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:46.905   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:46.906   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:46.906   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:46.907   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:46.907   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:46.908   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:46.908   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:46.909   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:46.909   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:46.910   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:46.910   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:46.911   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:46.911   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:46.912   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:46.912   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:46.914   508  1622 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:46.914   508  1622 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:46.932  2364  2415 D EGL_emulation: app_time_stats: avg=1449.59ms min=76.60ms max=3985.06ms count=3
+10-28 16:56:47.201   508   592 D ActivityManager: freezing 2068 com.android.contacts
+10-28 16:56:47.466   508   530 E BLASTSyncEngine: WM sent Transaction to organized, but never received commit callback. Application ANR likely to follow.
+10-28 16:56:47.535   508   592 D ActivityManager: freezing 2120 com.android.dynsystem:dynsystem
+10-28 16:56:47.535   508   592 D ActivityManager: freezing 2092 com.android.dynsystem
+10-28 16:56:47.536   508   592 D ActivityManager: freezing 1947 com.android.localtransport
+10-28 16:56:47.536   508   592 D ActivityManager: freezing 1642 com.android.keychain
+10-28 16:56:47.848   508   592 D ActivityManager: freezing 2146 com.android.messaging
+10-28 16:56:48.303   508   592 D ActivityManager: freezing 2226 com.android.rkpdapp
+10-28 16:56:48.518   508   592 D ActivityManager: freezing 2260 com.android.statementservice
+10-28 16:56:49.030   798   798 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-28 16:56:50.772   798   798 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+10-28 16:56:50.920  2562  2562 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-28 16:56:50.921  2562  2562 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-28 16:56:51.127     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+10-28 16:56:50.934   133   133 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-28 16:56:50.934  2562  2563 I Gralloc4: mapper 4.x is not supported
+10-28 16:56:51.341     0     0 I logd    : logdr: UID=2000 GID=2000 PID=2564 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns
+10-28 16:56:51.167   508  1622 W ActivityTaskManager: callingPackage for (uid=2000, pid=2569) has no WPC
+10-28 16:56:51.170   798  2132 D KeyguardService: setOccluded(false)
+10-28 16:56:51.170   798  2132 D KeyguardViewMediator: setOccluded(false)
+10-28 16:56:51.171   508  1622 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.shieldpericias.sentinel/.MainActivity (has extras)} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=3
+10-28 16:56:51.172   798   853 D WindowManagerShell: onActivityRestartAttempt: ComponentInfo{com.shieldpericias.sentinel/com.shieldpericias.sentinel.MainActivity}
+10-28 16:56:51.172   798   798 D KeyguardViewMediator: handleSetOccluded(false)
+10-28 16:56:51.274   508  2172 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:51.274   508  2172 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:51.282  2364  2415 D EGL_emulation: app_time_stats: avg=1449.91ms min=56.85ms max=4153.50ms count=3
+10-28 16:56:51.285   508  2172 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:51.285   508  2172 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:51.289   508   592 D ActivityManager: freezing 801 com.android.permissioncontroller
+10-28 16:56:51.309   508  2172 D WifiNl80211Manager: Scan result ready event
+10-28 16:56:51.310   508  2172 D WifiNative: Scan result ready event
+10-28 16:56:51.816   508   530 E BLASTSyncEngine: WM sent Transaction to organized, but never received commit callback. Application ANR likely to follow.
+10-28 16:56:52.031   798   798 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-28 16:56:52.470   508   592 D ActivityManager: freezing 1668 android.process.media
+10-28 16:56:53.257   508   592 D ActivityManager: freezing 1001 com.android.settings
+10-28 16:56:53.865     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=3000000 cc=10 chg=a
+10-28 16:56:54.847   508   722 E WifiHealthMonitor:  Hit PackageManager exception
+10-28 16:56:54.847   508   722 E WifiHealthMonitor: android.content.pm.PackageManager$NameNotFoundException: No module info for package: com.android.wifi
+10-28 16:56:54.847   508   722 E WifiHealthMonitor: 	at android.app.ApplicationPackageManager.getModuleInfo(ApplicationPackageManager.java:1190)
+10-28 16:56:54.847   508   722 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.getWifiStackVersion(WifiHealthMonitor.java:367)
+10-28 16:56:54.847   508   722 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.extractCurrentSoftwareBuildInfo(WifiHealthMonitor.java:588)
+10-28 16:56:54.847   508   722 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.postBootSwBuildCheck(WifiHealthMonitor.java:523)
+10-28 16:56:54.847   508   722 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.postBootDetectionHandler(WifiHealthMonitor.java:514)
+10-28 16:56:54.847   508   722 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.-$$Nest$mpostBootDetectionHandler(WifiHealthMonitor.java:0)
+10-28 16:56:54.847   508   722 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor$2.onAlarm(WifiHealthMonitor.java:190)
+10-28 16:56:54.847   508   722 E WifiHealthMonitor: 	at android.app.AlarmManager$ListenerWrapper.run(AlarmManager.java:375)
+10-28 16:56:54.847   508   722 E WifiHealthMonitor: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-28 16:56:54.847   508   722 E WifiHealthMonitor: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-28 16:56:54.847   508   722 E WifiHealthMonitor: 	at com.android.server.wifi.RunnerHandler.dispatchMessage(RunnerHandler.java:122)
+10-28 16:56:54.847   508   722 E WifiHealthMonitor: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-28 16:56:54.847   508   722 E WifiHealthMonitor: 	at android.os.Looper.loop(Looper.java:294)
+10-28 16:56:54.847   508   722 E WifiHealthMonitor: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-28 16:56:55.034   798   798 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-28 16:56:55.269  2577  2577 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-28 16:56:55.269  2577  2577 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-28 16:56:55.284   133   133 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-28 16:56:55.285  2577  2578 I Gralloc4: mapper 4.x is not supported
+10-28 16:56:55.480     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+10-28 16:56:55.681     0     0 I logd    : logdr: UID=2000 GID=2000 PID=2579 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns
+10-28 16:56:55.507   508  2172 W ActivityTaskManager: callingPackage for (uid=2000, pid=2584) has no WPC
+10-28 16:56:55.510   798  2184 D KeyguardService: setOccluded(false)
+10-28 16:56:55.510   798  2184 D KeyguardViewMediator: setOccluded(false)
+10-28 16:56:55.511   508  2172 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.shieldpericias.sentinel/.MainActivity (has extras)} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=3
+10-28 16:56:55.514   508   530 D OomAdjuster: Not killing cached processes
+10-28 16:56:55.514   798   853 D WindowManagerShell: onActivityRestartAttempt: ComponentInfo{com.shieldpericias.sentinel/com.shieldpericias.sentinel.MainActivity}
+10-28 16:56:55.514   798   798 D KeyguardViewMediator: handleSetOccluded(false)
+10-28 16:56:55.593   508  2172 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:55.593   508  2172 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:55.616  2364  2415 D EGL_emulation: app_time_stats: avg=1444.70ms min=64.10ms max=4127.37ms count=3
+10-28 16:56:56.170   508   530 E BLASTSyncEngine: WM sent Transaction to organized, but never received commit callback. Application ANR likely to follow.
+10-28 16:56:56.832   508   592 D ActivityManager: freezing 1365 android.process.acore
+10-28 16:56:58.038   798   798 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-28 16:56:59.609  2592  2592 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-28 16:56:59.609  2592  2592 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-28 16:56:59.626   133   133 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-28 16:56:59.626  2592  2593 I Gralloc4: mapper 4.x is not supported
+10-28 16:56:59.822     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+10-28 16:57:00.026     0     0 I logd    : logdr: UID=2000 GID=2000 PID=2594 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns
+10-28 16:56:59.853   508  2172 W ActivityTaskManager: callingPackage for (uid=2000, pid=2599) has no WPC
+10-28 16:56:59.855   798  2184 D KeyguardService: setOccluded(false)
+10-28 16:56:59.855   798  2184 D KeyguardViewMediator: setOccluded(false)
+10-28 16:56:59.856   508  2172 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.shieldpericias.sentinel/.MainActivity (has extras)} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=3
+10-28 16:56:59.857   798   853 D WindowManagerShell: onActivityRestartAttempt: ComponentInfo{com.shieldpericias.sentinel/com.shieldpericias.sentinel.MainActivity}
+10-28 16:56:59.858   798   798 D KeyguardViewMediator: handleSetOccluded(false)
+10-28 16:56:59.930   508  2172 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:56:59.930   508  2172 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:56:59.957  2364  2415 D EGL_emulation: app_time_stats: avg=1446.97ms min=36.84ms max=3899.48ms count=3
+10-28 16:57:00.046   798   876 D EGL_emulation: app_time_stats: avg=9008.13ms min=26.97ms max=26947.36ms count=3
+10-28 16:57:00.148  2364  2364 D CompatibilityChangeReporter: Compat change id reported: 289878283; UID 10141; state: ENABLED
+10-28 16:57:00.511   508   530 E BLASTSyncEngine: WM sent Transaction to organized, but never received commit callback. Application ANR likely to follow.
+10-28 16:57:00.773   798   798 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+10-28 16:57:01.337   153  2540 I keystore2: system/security/keystore2/src/watchdog.rs:319 - Watchdog thread idle -> terminating. Have a great day.
+10-28 16:57:03.947  2607  2607 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-28 16:57:03.948  2607  2607 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-28 16:57:03.959   133   133 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-28 16:57:03.960  2607  2608 I Gralloc4: mapper 4.x is not supported
+10-28 16:57:04.155     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+10-28 16:57:04.353     0     0 I logd    : logdr: UID=2000 GID=2000 PID=2609 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns
+10-28 16:57:04.177   508  2172 W ActivityTaskManager: callingPackage for (uid=2000, pid=2614) has no WPC
+10-28 16:57:04.179   508  2172 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.shieldpericias.sentinel/.MainActivity (has extras)} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=3
+10-28 16:57:04.181   798   853 D WindowManagerShell: onActivityRestartAttempt: ComponentInfo{com.shieldpericias.sentinel/com.shieldpericias.sentinel.MainActivity}
+10-28 16:57:04.181   798  2132 D KeyguardService: setOccluded(false)
+10-28 16:57:04.181   798  2132 D KeyguardViewMediator: setOccluded(false)
+10-28 16:57:04.181   798   798 D KeyguardViewMediator: handleSetOccluded(false)
+10-28 16:57:04.183   508   530 D OomAdjuster: Not killing cached processes
+10-28 16:57:04.281  2364  2415 D EGL_emulation: app_time_stats: avg=864.70ms min=29.75ms max=3957.11ms count=5
+10-28 16:57:04.855   508   530 E BLASTSyncEngine: WM sent Transaction to organized, but never received commit callback. Application ANR likely to follow.
+10-28 16:57:05.209   508   781 D ActivityManager: sync unfroze 801 com.android.permissioncontroller for 6
+10-28 16:57:05.213   801   820 I PermissionControllerServiceImpl: Updating user sensitive for user 0
+10-28 16:57:08.271  2622  2622 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-28 16:57:08.271  2622  2622 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-28 16:57:08.284   133   133 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-28 16:57:08.285  2622  2623 I Gralloc4: mapper 4.x is not supported
+10-28 16:57:08.478     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+10-28 16:57:08.681     0     0 I logd    : logdr: UID=2000 GID=2000 PID=2624 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns
+10-28 16:57:08.506   508   889 W ActivityTaskManager: callingPackage for (uid=2000, pid=2629) has no WPC
+10-28 16:57:08.508   798  2132 D KeyguardService: setOccluded(false)
+10-28 16:57:08.508   798  2132 D KeyguardViewMediator: setOccluded(false)
+10-28 16:57:08.508   798   798 D KeyguardViewMediator: handleSetOccluded(false)
+10-28 16:57:08.508   508   889 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.shieldpericias.sentinel/.MainActivity (has extras)} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=3
+10-28 16:57:08.509   798   853 D WindowManagerShell: onActivityRestartAttempt: ComponentInfo{com.shieldpericias.sentinel/com.shieldpericias.sentinel.MainActivity}
+10-28 16:57:08.592  2364  2415 D EGL_emulation: app_time_stats: avg=1436.93ms min=50.15ms max=4098.92ms count=3
+10-28 16:57:08.617   508   889 I DevicePolicyManager: Calling user 0, device owner will be set on user 0
+10-28 16:57:08.617   508   889 D DevicePolicyManager: checkProvisioningPreCondition(android.app.action.PROVISION_MANAGED_DEVICE, com.shieldpericias.sentinel) failed: Trying to set the device owner, but device owner is already set.
+10-28 16:57:08.631   508   889 I UsbPortManager: USB HAL AIDL version: USB_HAL_V2_0
+10-28 16:57:09.178   508   530 E BLASTSyncEngine: WM sent Transaction to organized, but never received commit callback. Application ANR likely to follow.
+10-28 16:57:10.772   798   798 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+10-28 16:57:12.202   508   716 W BatteryExternalStatsWorker: error reading Bluetooth stats: 11
+10-28 16:57:12.600  2638  2638 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-28 16:57:12.600  2638  2638 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-28 16:57:12.608   133   133 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-28 16:57:12.608  2638  2639 I Gralloc4: mapper 4.x is not supported
+10-28 16:57:12.805     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+10-28 16:57:13.012     0     0 I logd    : logdr: UID=2000 GID=2000 PID=2640 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns
+10-28 16:57:12.835   508   716 W ActivityTaskManager: callingPackage for (uid=2000, pid=2645) has no WPC
+10-28 16:57:12.837   508   716 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.shieldpericias.sentinel/.MainActivity (has extras)} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=3
+10-28 16:57:12.838   798  2184 D KeyguardService: setOccluded(false)
+10-28 16:57:12.838   798  2184 D KeyguardViewMediator: setOccluded(false)
+10-28 16:57:12.840   798   853 D WindowManagerShell: onActivityRestartAttempt: ComponentInfo{com.shieldpericias.sentinel/com.shieldpericias.sentinel.MainActivity}
+10-28 16:57:12.840   798   798 D KeyguardViewMediator: handleSetOccluded(false)
+10-28 16:57:12.840   508   530 D OomAdjuster: Not killing cached processes
+10-28 16:57:12.974  2364  2415 D EGL_emulation: app_time_stats: avg=1460.40ms min=38.70ms max=4201.96ms count=3
+10-28 16:57:13.508   508   530 E BLASTSyncEngine: WM sent Transaction to organized, but never received commit callback. Application ANR likely to follow.
+10-28 16:57:16.929  2653  2653 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-28 16:57:16.930  2653  2653 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-28 16:57:16.943   133   133 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-28 16:57:16.944  2653  2654 I Gralloc4: mapper 4.x is not supported
+10-28 16:57:17.140     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+10-28 16:57:17.349     0     0 I logd    : logdr: UID=2000 GID=2000 PID=2655 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns
+10-28 16:57:17.189   508  1622 W PackageManager: Cannot suspend package "com.shieldpericias.sentinel": has an active device admin
+10-28 16:57:17.189   508  1622 W PackageManager: Cannot suspend package "com.android.dialer": is the default dialer
+10-28 16:57:17.189   508  1622 I DevicePolicyManager: Packages subject to suspension: com.android.documentsui,com.android.quicksearchbox,com.android.contacts,com.android.camera2,com.android.stk,com.android.calendar,com.android.gallery3d,org.chromium.webview_shell,com.android.deskclock
+10-28 16:57:17.299   508   528 D CompatibilityChangeReporter: Compat change id reported: 173031413; UID 1000; state: ENABLED
+10-28 16:57:17.299   508   528 I SideFpsEventHandler: notifyPowerPressed
+10-28 16:57:17.299   508   528 D WindowManager: powerPress: eventTime=94049 interactive=true count=1 beganFromNonInteractive=false mShortPressOnPowerBehavior=1
+10-28 16:57:17.300   508   528 I PowerGroup: Powering off display group due to power_button (groupId= 0, uid= 1000, millisSinceLastUserActivity=0, lastUserActivityEvent=button)...
+10-28 16:57:17.300   508   528 I PowerManagerService: Going to sleep due to power_button (uid 1000, screenOffTimeout=2147483647, activityTimeoutWM=-1, maxDimRatio=0.20000005, maxDimDur=7000)...
+10-28 16:57:17.301   508   611 D CompatibilityChangeReporter: Compat change id reported: 156215187; UID 10109; state: DISABLED
+10-28 16:57:17.311   385   400 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000004) and output flags (00000002)
+10-28 16:57:17.311   385   400 D AF::TrackHandle: OpPlayAudio: track:56 usage:13 not muted
+10-28 16:57:17.313   385   400 D audioserver: FGS Logger Transaction failed
+10-28 16:57:17.313   385   400 D audioserver: -129
+10-28 16:57:17.328   508   554 E EGL_emulation: eglQueryContext 32c0  EGL_BAD_ATTRIBUTE
+10-28 16:57:17.328   508   554 E EGL_emulation: tid 554: eglQueryContext(2146): error 0x3004 (EGL_BAD_ATTRIBUTE)
+10-28 16:57:17.343   798   876 D EGL_emulation: app_time_stats: avg=26432.35ms min=658.80ms max=52205.91ms count=2
+10-28 16:57:17.356   798   876 D EGL_emulation: app_time_stats: avg=8654.88ms min=734.64ms max=16575.12ms count=2
+10-28 16:57:17.356   798   798 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-28 16:57:17.366   385   494 D AudioFlinger: mixer(0x7e2d66d42930) throttle end: throttle time(33)
+10-28 16:57:17.605   385   494 D audioserver: FGS Logger Transaction failed
+10-28 16:57:17.605   385   494 D audioserver: -129
+10-28 16:57:17.719   508   554 I DisplayPowerController2[0]: Blocking screen off
+10-28 16:57:17.720   508   554 I DisplayPowerController2[0]: Unblocked screen off after 0 ms
+10-28 16:57:17.721   508   554 D ActivityTaskManager: Top Process State changed to PROCESS_STATE_TOP_SLEEPING
+10-28 16:57:17.722   798   853 V WindowManagerShell: Transition requested: android.os.BinderProxy@b09b5aa TransitionRequestInfo { type = SLEEP, triggerTask = null, remoteTransition = null, displayChange = null }
+10-28 16:57:17.724   508   716 W Transition: Transition already started id=20 state=2
+10-28 16:57:17.725   508   527 V WindowManager: Sent Transition #20 createdAt=10-28 16:57:17.721 via request=TransitionRequestInfo { type = SLEEP, triggerTask = null, remoteTransition = null, displayChange = null }
+10-28 16:57:17.725   508   527 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+10-28 16:57:17.726   508   527 V WindowManager:     info={id=20 t=SLEEP f=0x0 trk=0 r=[] c=[]}
+10-28 16:57:17.726   798   853 V WindowManagerShell: onTransitionReady android.os.BinderProxy@b09b5aa: {id=20 t=SLEEP f=0x0 trk=0 r=[] c=[]}
+10-28 16:57:17.726   798   853 V WindowManagerShell: No transition roots in (#20)android.os.BinderProxy@b09b5aa@0 so abort
+10-28 16:57:17.726   798   853 V WindowManagerShell: Transition animation finished (aborted=true), notifying core (#20)android.os.BinderProxy@b09b5aa@0
+10-28 16:57:17.735   508   544 W KernelCpuProcStringReader: File not found. It's normal if not implemented: /proc/uid_concurrent_policy_time
+10-28 16:57:17.747   389   389 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-28 16:57:17.761   508   554 E Surface : freeAllBuffers: 1 buffers were freed while being dequeued!
+10-28 16:57:17.761   508   554 E Surface : getSlotFromBufferLocked: unknown buffer: 0x0
+10-28 16:57:17.764   508   554 E libEGL  : call to OpenGL ES API with no current context (logged once per thread)
+10-28 16:57:17.764   508   554 I DisplayBrightnessStrategySelector: Changing the DisplayBrightnessStrategy from InvalidBrightnessStrategy toScreenOffBrightnessStrategy for display 0
+10-28 16:57:17.767   798   798 D CentralSurfaces: updateQsExpansionEnabled - QS Expand enabled: true
+10-28 16:57:17.769   508   527 V WindowManager: Finish Transition #20: created at 10-28 16:57:17.721 collect-started=0.068ms request-sent=0.279ms started=0.697ms ready=0.695ms sent=0.979ms finished=46.95ms
+10-28 16:57:17.771   798   853 V WindowManagerShell: Track 0 became idle
+10-28 16:57:17.771   798   853 V WindowManagerShell: All active transition animations finished
+10-28 16:57:17.771   798   853 W Looper  : Slow dispatch took 45ms wmshell.main h=android.os.Handler c=com.android.wm.shell.transition.Transitions$TransitionPlayerImpl$$ExternalSyntheticLambda0@3f8559b m=0
+10-28 16:57:17.775   508   554 V DisplayPowerController2[0]: Brightness [0.0] reason changing to: 'screen_off', previous reason: 'manual'.
+10-28 16:57:17.775   508   554 I DisplayPowerController2[0]: BrightnessEvent: disp=0, physDisp=local:4619827259835644672, brt=0.0, initBrt=0.39763778, rcmdBrt=NaN, preBrt=NaN, lux=0.0, preLux=0.0, hbmMax=1.0, hbmMode=off, rbcStrength=0, thrmMax=1.0, powerFactor=1.0, wasShortTermModelActive=false, flags=, reason=screen_off, autoBrightness=false, strategy=ScreenOffBrightnessStrategy
+10-28 16:57:17.778   389   389 D SurfaceFlinger: Setting power mode 0 on display 4619827259835644672
+10-28 16:57:17.780   389   389 D SurfaceFlinger: Finished setting power mode 0 on display 4619827259835644672
+10-28 16:57:17.781   152   157 E android.system.suspend-service: error writing zygote_kwl to /sys/power/wake_unlock: Invalid argument
+10-28 16:57:17.781   152   157 I android.system.suspend-service: automatic system suspend enabled
+10-28 16:57:17.782   508   530 I DisplayDeviceRepository: Display device changed state: "Built-in Screen", OFF
+10-28 16:57:17.784   508   554 I PowerGroup: Sleeping power group (groupId=0, uid=1000, reason=timeout)...
+10-28 16:57:17.784   508   530 I DisplayDeviceRepository: Display device changed: DisplayDeviceInfo{"Built-in Screen": uniqueId="local:4619827259835644672", 1080 x 2400, modeId 1, renderFrameRate 60.000004, defaultModeId 1, supportedModes [{id=1, width=1080, height=2400, fps=60.000004, alternativeRefreshRates=[], supportedHdrTypes=[]}], colorMode 0, supportedColorModes [0], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 420, 420.0 x 420.0 dpi, appVsyncOff 1000000, presDeadline 16666666, cutout DisplayCutout{insets=Rect(0, 128 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(492, 0 - 610, 128), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2400 physicalDisplayWidth=1080 physicalDisplayHeight=2400 density={2.625} cutoutSpec={M 507,64 a 33,33 0 1 0 66,0 33,33 0 1 0 -66,0 Z @left} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, touch INTERNAL, rotation 0, type INTERNAL, address {port=0, model=0x401cec6a7a2b7b}, deviceProductInfo DeviceProductInfo{name=EMU_display_0, manufacturerPnpId=GGL, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=0}, state OFF, committedState OFF, frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.39763778, hdrSdrRatio NaN, roundedCorners RoundedCorners{[RoundedCorner{position=TopLeft, radius=28, center=Point(28, 28)}, RoundedCorner{position=TopRight, radius=28, center=Point(1052, 28)}, RoundedCorner{position=BottomRight, radius=28, center=Point(1052, 2372)}, RoundedCorner{position=BottomLeft, radius=28, center=Point(28, 2372)}]}, FLAG_ALLOWED_TO_BE_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, installOrientation 0, displayShape DisplayShape{ spec=-1893857183 displayWidth=1080 displayHeight=2400 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}}
+10-28 16:57:17.784   508   554 I PowerManagerService: Sleeping (uid 1000)...
+10-28 16:57:17.785   508   530 I InputManager-JNI: Viewport [0] to add: local:4619827259835644672, isActive: false
+10-28 16:57:17.786   508   531 W SurfaceControl: Invalid layer stack -1
+10-28 16:57:17.786   508   531 I DisplayDevice: [0] Layerstack set to -1 for local:4619827259835644672
+10-28 16:57:17.786   508   606 I InputReader: Reconfiguring input devices, changes=DISPLAY_INFO
+10-28 16:57:17.786   508   606 I InputReader: Touch device 'virtio_input_multi_touch_11' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+10-28 16:57:17.786   508   606 I InputReader: Touch device 'virtio_input_multi_touch_10' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+10-28 16:57:17.786   508   606 I InputReader: Touch device 'virtio_input_multi_touch_9' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+10-28 16:57:17.786   508   606 I InputReader: Touch device 'virtio_input_multi_touch_7' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+10-28 16:57:17.786   508   606 I InputReader: Touch device 'virtio_input_multi_touch_6' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+10-28 16:57:17.786   508   606 I InputReader: Touch device 'virtio_input_multi_touch_5' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+10-28 16:57:17.786   508   606 I InputReader: Touch device 'virtio_input_multi_touch_4' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+10-28 16:57:17.786   508   606 I InputReader: Touch device 'virtio_input_multi_touch_3' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+10-28 16:57:17.786   508   606 I InputReader: Disabling virtio_input_multi_touch_1 (device 4) because the associated viewport is not active
+10-28 16:57:17.786   508   606 I InputReader: Device reconfigured: id=4, name='virtio_input_multi_touch_1', size 32768x32768, orientation 0, mode 0, display id 0
+10-28 16:57:17.786   508   606 I InputReader: Touch device 'virtio_input_multi_touch_2' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+10-28 16:57:17.786   508   606 I InputReader: Touch device 'virtio_input_multi_touch_8' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+10-28 16:57:17.790   969  1159 D BtGatt.ScanManager: handleScreenOff()
+10-28 16:57:17.796   508   508 D BiometricService: Sensor ID(4), oemStrength: 15, updatedStrength: 15, modality 8, state: 0, cookie: 0, sensorId 4, hasEnrollments: false cannot participate in Keystore operations
+10-28 16:57:17.797   508   508 D BiometricService: Sensor ID(0), oemStrength: 15, updatedStrength: 15, modality 2, state: 0, cookie: 0, sensorId 0, hasEnrollments: false cannot participate in Keystore operations
+10-28 16:57:17.797   153   162 I keystore2: system/security/keystore2/src/authorization.rs:143 - on_lock_screen_event(r#LOCK, user_id=0, password.is_some()=false, unlocking_sids=Some([]))
+10-28 16:57:17.797   153   162 I keystore2: system/security/keystore2/src/super_key.rs:930 - Locking screen bound for user 0 sids []
+10-28 16:57:17.800   508   508 I PowerManagerService: onFlip(): Face up.
+10-28 16:57:17.802   508   716 D SystemServerTiming: getUserSwitchability-0
+10-28 16:57:17.802   508   716 D SystemServerTiming: TM.isInCall
+10-28 16:57:17.803   508   716 V SystemServerTiming: TM.isInCall took to complete: 0ms
+10-28 16:57:17.803   508   716 D SystemServerTiming: hasUserRestriction-DISALLOW_USER_SWITCH
+10-28 16:57:17.803   508   716 V SystemServerTiming: hasUserRestriction-DISALLOW_USER_SWITCH took to complete: 0ms
+10-28 16:57:17.803   508   716 D SystemServerTiming: getInt-ALLOW_USER_SWITCHING_WHEN_SYSTEM_USER_LOCKED
+10-28 16:57:17.804   508   716 V SystemServerTiming: getInt-ALLOW_USER_SWITCHING_WHEN_SYSTEM_USER_LOCKED took to complete: 0ms
+10-28 16:57:17.804   508   716 D SystemServerTiming: isUserUnlocked-USER_SYSTEM
+10-28 16:57:17.804   508   716 V SystemServerTiming: isUserUnlocked-USER_SYSTEM took to complete: 0ms
+10-28 16:57:17.804   798   798 D SbStateController: setState: requested state KEYGUARD!= upcomingState: SHADE. This usually means the status bar state transition was interrupted before the upcoming state could be applied.
+10-28 16:57:17.804   508   716 V SystemServerTiming: getUserSwitchability-0 took to complete: 1ms
+10-28 16:57:17.805   798   875 D StylusManager: Stylus InputDevice changed: 4 virtio_input_multi_touch_1
+10-28 16:57:17.809   798   798 D CentralSurfaces: updateQsExpansionEnabled - QS Expand enabled: true
+10-28 16:57:17.820   508  2677 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+10-28 16:57:17.834   798   798 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+10-28 16:57:17.834   798   798 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+10-28 16:57:17.834   798   798 D CentralSurfaces: Received new disable state: enaihbcrso.qingr (unchanged)
+10-28 16:57:17.836   798   798 D CentralSurfaces: Received new disable state: enaihbcrso.qingr (unchanged)
+10-28 16:57:17.842   798   798 D CentralSurfaces: Received new disable state: enaihbcrso.qingr (unchanged)
+10-28 16:57:17.842   798   798 D CentralSurfaces: Received new disable state: enaihbcrso.qingr (unchanged)
+10-28 16:57:17.842   798   798 D CentralSurfaces: Received new disable state: enaihbcrso.qingr (unchanged)
+10-28 16:57:17.866   508   529 I DropBoxManagerService: add tag=system_server_strictmode isTagEnabled=true flags=0x2
+10-28 16:57:17.977   798   798 D CentralSurfaces: Received new disable state: Old: enaihbcrso.qingr | New: enaiHbcRso.qingr (changed: HR.)
+10-28 16:57:17.979  1084  1084 I OverviewComponentObserver: updateOverviewTargets: mIsHomeDisabled=true, isDefaultHomeNull=false, mIsDefaultHome=true
+10-28 16:57:17.981   798   798 W View    : requestLayout() improperly called by com.android.systemui.util.AutoMarqueeTextView{d99f9c4 V.ED..... ..S...ID 0,37-143,88 #7f0a064f app:id/shade_carrier_text} during layout: running second layout pass
+10-28 16:57:17.981   798   798 W View    : requestLayout() improperly called by com.android.keyguard.CarrierText{64140ad V.ED..... ......ID 50,0-481,128 #7f0a036c app:id/keyguard_carrier_text} during layout: running second layout pass
+10-28 16:57:18.092   798   798 D CentralSurfaces: Received new disable state: enaiHbcRso.qingr (unchanged)
+10-28 16:57:18.093   798   798 D CentralSurfaces: Received new disable state: enaiHbcRso.qingr (unchanged)
+10-28 16:57:18.094   798   798 I vol.VolumeDialogImpl: mDialog.dismiss() reason: screen_off from: com.android.systemui.volume.VolumeDialogImpl$7.onScreenOff:4
+10-28 16:57:18.109   508  2508 D SystemServerTiming: getUserSwitchability-0
+10-28 16:57:18.109   508  2508 D SystemServerTiming: TM.isInCall
+10-28 16:57:18.109   508  2508 V SystemServerTiming: TM.isInCall took to complete: 0ms
+10-28 16:57:18.109   508  2508 D SystemServerTiming: hasUserRestriction-DISALLOW_USER_SWITCH
+10-28 16:57:18.110   508  2508 V SystemServerTiming: hasUserRestriction-DISALLOW_USER_SWITCH took to complete: 0ms
+10-28 16:57:18.110   508  2508 D SystemServerTiming: getInt-ALLOW_USER_SWITCHING_WHEN_SYSTEM_USER_LOCKED
+10-28 16:57:18.110   508  2508 V SystemServerTiming: getInt-ALLOW_USER_SWITCHING_WHEN_SYSTEM_USER_LOCKED took to complete: 0ms
+10-28 16:57:18.110   508  2508 D SystemServerTiming: isUserUnlocked-USER_SYSTEM
+10-28 16:57:18.110   508  2508 V SystemServerTiming: isUserUnlocked-USER_SYSTEM took to complete: 0ms
+10-28 16:57:18.110   508  2508 V SystemServerTiming: getUserSwitchability-0 took to complete: 1ms
+10-28 16:57:18.110   508  2508 D SystemServerTiming: getUserSwitchability-0
+10-28 16:57:18.111   508  2508 D SystemServerTiming: TM.isInCall
+10-28 16:57:18.111   508  2508 V SystemServerTiming: TM.isInCall took to complete: 0ms
+10-28 16:57:18.111   508  2508 D SystemServerTiming: hasUserRestriction-DISALLOW_USER_SWITCH
+10-28 16:57:18.111   508  2508 V SystemServerTiming: hasUserRestriction-DISALLOW_USER_SWITCH took to complete: 0ms
+10-28 16:57:18.111   508  2508 D SystemServerTiming: getInt-ALLOW_USER_SWITCHING_WHEN_SYSTEM_USER_LOCKED
+10-28 16:57:18.111   508  2508 V SystemServerTiming: getInt-ALLOW_USER_SWITCHING_WHEN_SYSTEM_USER_LOCKED took to complete: 0ms
+10-28 16:57:18.111   508  2508 D SystemServerTiming: isUserUnlocked-USER_SYSTEM
+10-28 16:57:18.112   508  2508 V SystemServerTiming: isUserUnlocked-USER_SYSTEM took to complete: 0ms
+10-28 16:57:18.112   508  2508 V SystemServerTiming: getUserSwitchability-0 took to complete: 1ms
+10-28 16:57:18.112   798   798 D BiometricsRepositoryImpl: currentUser authFlags changed, new value: AuthenticationFlags(userId=0, flag=0)
+10-28 16:57:18.114   798   798 D BiometricsRepositoryImpl: currentUser authFlags changed, new value: AuthenticationFlags(userId=0, flag=0)
+10-28 16:57:18.114   798   798 D BiometricsRepositoryImpl: currentUser authFlags changed, new value: AuthenticationFlags(userId=0, flag=0)
+10-28 16:57:18.115   798   798 D BiometricsRepositoryImpl: currentUser authFlags changed, new value: AuthenticationFlags(userId=0, flag=0)
+10-28 16:57:18.115   798   798 D BiometricsRepositoryImpl: currentUser authFlags changed, new value: AuthenticationFlags(userId=0, flag=0)
+10-28 16:57:18.115   798   798 D BiometricsRepositoryImpl: currentUser authFlags changed, new value: AuthenticationFlags(userId=0, flag=0)
+10-28 16:57:18.115   798   875 D ControlsListingControllerImpl: Subscribing callback, service count: 0
+10-28 16:57:18.117   798   875 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+10-28 16:57:18.117   798   875 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+10-28 16:57:18.117   798   875 D ControlsListingControllerImpl: Subscribing callback, service count: 0
+10-28 16:57:18.118   798   875 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+10-28 16:57:18.118   798   875 D ControlsListingControllerImpl: Subscribing callback, service count: 0
+10-28 16:57:19.365   508  2172 I PowerGroup: Waking up power group from Asleep (groupId=0, uid=1000, reason=WAKE_REASON_POWER_BUTTON, details=android.policy:POWER)...
+10-28 16:57:19.366   508  2172 I PowerManagerService: Waking up from Asleep (uid=1000, reason=WAKE_REASON_POWER_BUTTON, details=android.policy:POWER)...
+10-28 16:57:19.366   508   508 E ActivityManager: Cancel pending or running compactions as system is awake
+10-28 16:57:19.366   508   508 D OomAdjuster: Not killing cached processes
+10-28 16:57:19.368   508   554 I DisplayPowerController2[0]: Blocking screen on until initial contents have been drawn.
+10-28 16:57:19.368   508   554 I DisplayBrightnessStrategySelector: Changing the DisplayBrightnessStrategy from ScreenOffBrightnessStrategy toInvalidBrightnessStrategy for display 0
+10-28 16:57:19.368   508   554 V DisplayPowerController2[0]: Brightness [0.39763778] reason changing to: 'manual', previous reason: 'screen_off'.
+10-28 16:57:19.368   508   554 I DisplayPowerController2[0]: BrightnessEvent: disp=0, physDisp=local:4619827259835644672, brt=0.39763778, initBrt=0.0, rcmdBrt=NaN, preBrt=NaN, lux=0.0, preLux=0.0, hbmMax=1.0, hbmMode=off, rbcStrength=0, thrmMax=1.0, powerFactor=1.0, wasShortTermModelActive=false, flags=, reason=manual, autoBrightness=false, strategy=InvalidBrightnessStrategy
+10-28 16:57:19.370   389   389 D SurfaceFlinger: Setting power mode 2 on display 4619827259835644672
+10-28 16:57:19.370   389   389 D SurfaceFlinger: Finished setting power mode 2 on display 4619827259835644672
+10-28 16:57:19.370   508   530 I DisplayDeviceRepository: Display device changed state: "Built-in Screen", ON
+10-28 16:57:19.371   508   530 I DisplayDeviceRepository: Display device changed: DisplayDeviceInfo{"Built-in Screen": uniqueId="local:4619827259835644672", 1080 x 2400, modeId 1, renderFrameRate 60.000004, defaultModeId 1, supportedModes [{id=1, width=1080, height=2400, fps=60.000004, alternativeRefreshRates=[], supportedHdrTypes=[]}], colorMode 0, supportedColorModes [0], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 420, 420.0 x 420.0 dpi, appVsyncOff 1000000, presDeadline 16666666, cutout DisplayCutout{insets=Rect(0, 128 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(492, 0 - 610, 128), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2400 physicalDisplayWidth=1080 physicalDisplayHeight=2400 density={2.625} cutoutSpec={M 507,64 a 33,33 0 1 0 66,0 33,33 0 1 0 -66,0 Z @left} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, touch INTERNAL, rotation 0, type INTERNAL, address {port=0, model=0x401cec6a7a2b7b}, deviceProductInfo DeviceProductInfo{name=EMU_display_0, manufacturerPnpId=GGL, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=0}, state ON, committedState ON, frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.39763778, hdrSdrRatio NaN, roundedCorners RoundedCorners{[RoundedCorner{position=TopLeft, radius=28, center=Point(28, 28)}, RoundedCorner{position=TopRight, radius=28, center=Point(1052, 28)}, RoundedCorner{position=BottomRight, radius=28, center=Point(1052, 2372)}, RoundedCorner{position=BottomLeft, radius=28, center=Point(28, 2372)}]}, FLAG_ALLOWED_TO_BE_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, installOrientation 0, displayShape DisplayShape{ spec=-1893857183 displayWidth=1080 displayHeight=2400 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}}
+10-28 16:57:19.371   508   530 I InputManager-JNI: Viewport [0] to add: local:4619827259835644672, isActive: true
+10-28 16:57:19.371   508   528 I SideFpsEventHandler: notifyPowerPressed
+10-28 16:57:19.371   508   528 I WindowManager: Suppressed redundant power key press while already in the process of turning the screen on.
+10-28 16:57:19.374   798   798 D CentralSurfaces: mShouldDelayWakeUpAnimation CLEARED
+10-28 16:57:19.374   508   531 I DisplayDevice: [0] Layerstack set to 0 for local:4619827259835644672
+10-28 16:57:19.374   508   606 I InputReader: Reconfiguring input devices, changes=DISPLAY_INFO
+10-28 16:57:19.374   508   606 I InputReader: Touch device 'virtio_input_multi_touch_11' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+10-28 16:57:19.374   508   606 I InputReader: Touch device 'virtio_input_multi_touch_10' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+10-28 16:57:19.374   508   606 I InputReader: Touch device 'virtio_input_multi_touch_9' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+10-28 16:57:19.374   508   606 I InputReader: Touch device 'virtio_input_multi_touch_7' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+10-28 16:57:19.374   508   606 I InputReader: Touch device 'virtio_input_multi_touch_6' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+10-28 16:57:19.374   508   606 I InputReader: Touch device 'virtio_input_multi_touch_5' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+10-28 16:57:19.374   508   606 I InputReader: Touch device 'virtio_input_multi_touch_4' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+10-28 16:57:19.374   508   606 I InputReader: Touch device 'virtio_input_multi_touch_3' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+10-28 16:57:19.374   508   606 I InputReader: Device reconfigured: id=4, name='virtio_input_multi_touch_1', size 1080x2400, orientation 0, mode 1, display id 0
+10-28 16:57:19.374   508   606 I InputReader: Touch device 'virtio_input_multi_touch_2' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+10-28 16:57:19.374   508   606 I InputReader: Touch device 'virtio_input_multi_touch_8' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+10-28 16:57:19.377   969  1159 D BtGatt.ScanManager: handleScreenOn()
+10-28 16:57:19.380   378   386 E RanchuHwc: getLayer Unknown layer:17
+10-28 16:57:19.380   389   389 E HWComposer: getDeviceCompositionChanges: presentOrValidate failed for display 4619827259835644672: BadLayer (3)
+10-28 16:57:19.380   389   389 E CompositionEngine: chooseCompositionStrategy failed for EMU_display_0: -2147483648 (Unknown error -2147483648)
+10-28 16:57:19.381   508   544 W KernelCpuProcStringReader: File not found. It's normal if not implemented: /proc/uid_concurrent_policy_time
+10-28 16:57:19.383   798   798 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+10-28 16:57:19.383   798   798 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+10-28 16:57:19.383   798   798 D CentralSurfaces: Received new disable state: enaiHbcRso.qingr (unchanged)
+10-28 16:57:19.383   798   798 D CentralSurfaces: Received new disable state: enaiHbcRso.qingr (unchanged)
+10-28 16:57:19.384   798   875 D StylusManager: Stylus InputDevice changed: 4 virtio_input_multi_touch_1
+10-28 16:57:19.401   508   508 D FastPairService: onReceive: ACTION_SCREEN_ON
+10-28 16:57:19.401   508   508 V FastPairService: invalidateScan: scan is disabled
+10-28 16:57:19.401   508   508 E NearbyManager: Cannot stop scan with this callback because it is never registered.
+10-28 16:57:19.421   798   876 D EGL_emulation: app_time_stats: avg=31016.76ms min=33.95ms max=61999.56ms count=2
+10-28 16:57:19.422   798   876 D EGL_emulation: app_time_stats: avg=30988.58ms min=48.03ms max=61929.14ms count=2
+10-28 16:57:19.422   798   798 D ProxSensor: [FalsingCollector] Primary sensor event: false. No secondary.
+10-28 16:57:19.462   508   889 D WifiNl80211Manager: Scan result ready event
+10-28 16:57:19.462   508   889 D WifiNative: Scan result ready event
+10-28 16:57:19.479   798   876 D EGL_emulation: app_time_stats: avg=696.95ms min=187.57ms max=1206.33ms count=2
+10-28 16:57:19.506   798   876 D EGL_emulation: app_time_stats: avg=2157.72ms min=2157.72ms max=2157.72ms count=1
+10-28 16:57:19.511   798   876 D EGL_emulation: app_time_stats: avg=1077.65ms min=745.14ms max=1410.16ms count=2
+10-28 16:57:19.590   508   554 I DisplayPowerController2[0]: Unblocked screen on after 223 ms
+10-28 16:57:19.591   508   554 W PowerManagerService: Screen on took 227 ms
+10-28 16:57:20.398   798   798 D CompatibilityChangeReporter: Compat change id reported: 289878283; UID 10117; state: ENABLED
+10-28 16:57:20.399   798   798 I FalsingManager: {belief=0.2 confidence=1.0}
+10-28 16:57:20.438   798   798 D ProxSensor: [FalsingCollector] unregistering sensor listener
+10-28 16:57:20.442   798   798 D CentralSurfaces: Received new disable state: enaiHbcRso.qingr (unchanged)
+10-28 16:57:20.442   798   798 D CentralSurfaces: Received new disable state: enaiHbcRso.qingr (unchanged)
+10-28 16:57:20.443   798   798 D CentralSurfaces: Received new disable state: enaiHbcRso.qingr (unchanged)
+10-28 16:57:20.458   331  1438 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 318784
+10-28 16:57:20.458   798   798 D KeyguardBouncerRepositoryImpl: Keyguard Bouncer is showing
+10-28 16:57:20.459   798   798 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+10-28 16:57:20.459   798   798 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+10-28 16:57:20.490   798   876 D EGL_emulation: app_time_stats: avg=250.34ms min=26.93ms max=812.02ms count=4
+10-28 16:57:20.538   798   798 W FrameTracker: Missed App frame:UNKNOWN: 24, 4670, 22963545, CUJ=J<NOTIFICATION_SHADE_EXPAND_COLLAPSE::Collapse>
+10-28 16:57:20.538   798   798 W FrameTracker: Missed SF frame:UNKNOWN: 24, 4670, 22963545, CUJ=J<NOTIFICATION_SHADE_EXPAND_COLLAPSE::Collapse>
+10-28 16:57:20.774   798   798 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+10-28 16:57:20.802   798   798 W FrameTracker: Missed App frame:UNKNOWN: 88, 4746, 125355301, CUJ=J<LOCKSCREEN_PIN_APPEAR>
+10-28 16:57:20.802   798   798 W FrameTracker: Missed SF frame:UNKNOWN: 88, 4746, 125355301, CUJ=J<LOCKSCREEN_PIN_APPEAR>
+10-28 16:57:20.803   798   860 V PerfettoTrigger: Not triggering com.android.telemetry.interaction-jank-monitor-19 - not enough time since last trigger
+10-28 16:57:21.302   798   798 W FrameTracker: Missed App frame:UNKNOWN: 24, 4772, 24059706, CUJ=J<LOCKSCREEN_PASSWORD_APPEAR>
+10-28 16:57:21.302   798   798 W FrameTracker: Missed SF frame:UNKNOWN: 24, 4772, 24059706, CUJ=J<LOCKSCREEN_PASSWORD_APPEAR>
+10-28 16:57:21.426   385   400 D audioserver: FGS Logger Transaction failed
+10-28 16:57:21.426   385   400 D audioserver: -129
+10-28 16:57:21.427   798   798 I FalsingManager: {belief=0.08199634345377788 confidence=1.0}
+10-28 16:57:21.430   798   798 I FalsingManager: {belief=0.021903278538708527 confidence=1.0}
+10-28 16:57:21.438   385   400 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000004) and output flags (00000002)
+10-28 16:57:21.438   385   400 D AF::TrackHandle: OpPlayAudio: track:57 usage:13 not muted
+10-28 16:57:21.441   385   400 D audioserver: FGS Logger Transaction failed
+10-28 16:57:21.441   385   400 D audioserver: -129
+10-28 16:57:21.490   798   876 D EGL_emulation: app_time_stats: avg=1983.58ms min=1983.58ms max=1983.58ms count=1
+10-28 16:57:21.491   798   798 I FalsingManager: {belief=0.005954741927160614 confidence=1.0}
+10-28 16:57:21.496   385   494 D AudioFlinger: mixer(0x7e2d66d42930) throttle end: throttle time(35)
+10-28 16:57:21.499   385   400 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000004) and output flags (00000002)
+10-28 16:57:21.499   385   400 D AF::TrackHandle: OpPlayAudio: track:58 usage:13 not muted
+10-28 16:57:21.500   385   400 D audioserver: FGS Logger Transaction failed
+10-28 16:57:21.501   385   400 D audioserver: -129
+10-28 16:57:21.501   798   798 I FalsingManager: {belief=0.0015208803983718195 confidence=1.0}
+10-28 16:57:21.530   798   876 D EGL_emulation: app_time_stats: avg=113.84ms min=12.18ms max=483.04ms count=9
+10-28 16:57:21.598   508   889 I LockSettingsService: Verifying lockscreen credential for user 0
+10-28 16:57:21.634   508   717 D BiometricDeferredQueue: Fingerprint addPendingLockoutResetForUser: 0
+10-28 16:57:21.635   508   889 I LockSettingsService: Successfully verified lockscreen credential for user 0
+10-28 16:57:21.635   153  2506 I keystore2: system/security/keystore2/src/authorization.rs:143 - on_lock_screen_event(r#UNLOCK, user_id=0, password.is_some()=true, unlocking_sids=None)
+10-28 16:57:21.651   153  2506 I keystore2: system/security/keystore2/src/super_key.rs:1141 - Trying to unlock when already unlocked.
+10-28 16:57:21.651   508   889 D LockSettingsService: CE storage for user 0 is already unlocked
+10-28 16:57:21.651   508   889 D LockSettingsService: unlockUser finished
+10-28 16:57:21.651   508   889 D SystemServerTiming: finishUserUnlocking-0
+10-28 16:57:21.652   508   889 V SystemServerTiming: finishUserUnlocking-0 took to complete: 0ms
+10-28 16:57:21.652   508   889 D LockSettingsService: unlockUser finished
+10-28 16:57:21.652   508   717 D BiometricDeferredQueue: Processing pending resetLockouts(Generic)
+10-28 16:57:21.652   508   717 D BiometricDeferredQueue: Resetting biometric lockout for user: 0
+10-28 16:57:21.652   508   889 I LockSettingsService: Organization managed users can have escrow token
+10-28 16:57:21.652   508   508 D CompatibilityChangeReporter: Compat change id reported: 171306433; UID 1000; state: ENABLED
+10-28 16:57:21.652   508   889 I LockSettingsService: Sending vendor auth secret to IAuthSecret HAL as user: 0
+10-28 16:57:21.654   385   494 D AudioFlinger: mixer(0x7e2d66d42930) throttle end: throttle time(2)
+10-28 16:57:21.654   385   494 D audioserver: FGS Logger Transaction failed
+10-28 16:57:21.654   385   494 D audioserver: -129
+10-28 16:57:21.655   508   717 D BiometricService: resetLockout(userId=0, hat=present)
+10-28 16:57:21.656   798   798 E KeyguardViewMediator: mHideAnimationFinishedRunnable#run
+10-28 16:57:21.682   798   798 I ScrimController: Skipping transition to: UNLOCKED while mIsBouncerToGoneTransitionRunning
+10-28 16:57:21.684   508   889 D ActivityTaskManager: Top Process State changed to PROCESS_STATE_TOP
+10-28 16:57:21.685   798   853 V WindowManagerShell: Transition requested: android.os.BinderProxy@83ae9d9 TransitionRequestInfo { type = TO_BACK, triggerTask = null, remoteTransition = null, displayChange = null }
+10-28 16:57:21.699  2364  2364 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+10-28 16:57:21.699  2364  2364 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+10-28 16:57:21.710   508  2036 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10141; state: DISABLED
+10-28 16:57:21.710   508  2036 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10141; state: DISABLED
+10-28 16:57:21.714   389   389 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-28 16:57:21.725   798   873 V SnapshotDrawerUtils: Drawing snapshot surface sizeMismatch=false
+10-28 16:57:21.740   798   798 W FrameTracker: Missed App frame:UNKNOWN: 10, 4856, 23596630, CUJ=J<LOCKSCREEN_PIN_DISAPPEAR>
+10-28 16:57:21.740   798   798 W FrameTracker: Missed SF frame:UNKNOWN: 10, 4856, 23596630, CUJ=J<LOCKSCREEN_PIN_DISAPPEAR>
+10-28 16:57:21.743   798   853 V WindowManagerShell: onTransitionReady android.os.BinderProxy@83ae9d9: {id=21 t=TO_BACK f=0x104 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@4fb4a77} m=TO_FRONT f=NONE p=WCT{android.window.IWindowContainerToken$Stub$Proxy@eb926e4} leash=Surface(name=Task=8)/@0xe924f38 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@707374d} m=TO_FRONT f=NONE leash=Surface(name=DefaultTaskDisplayArea)/@0x5befb11 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-28 16:57:21.744   798   853 V WindowManagerShell: Playing animation for (#21)android.os.BinderProxy@83ae9d9@0
+10-28 16:57:21.744   798   853 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@d01af49
+10-28 16:57:21.744   798   853 V WindowManagerShell: start keyguard going-away transition, info = {id=21 t=TO_BACK f=0x104 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@4fb4a77} m=TO_FRONT f=NONE p=WCT{android.window.IWindowContainerToken$Stub$Proxy@eb926e4} leash=Surface(name=Task=8)/@0xe924f38 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@707374d} m=TO_FRONT f=NONE leash=Surface(name=DefaultTaskDisplayArea)/@0x5befb11 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-28 16:57:21.745   508   527 V WindowManager: Sent Transition #21 createdAt=10-28 16:57:21.683 via request=TransitionRequestInfo { type = TO_BACK, triggerTask = null, remoteTransition = null, displayChange = null }
+10-28 16:57:21.788   508   527 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+10-28 16:57:21.789   508   527 V WindowManager:     info={id=21 t=TO_BACK f=0x104 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{a854383 Task{32d0db8 #8 type=standard A=10141:com.shieldpericias.sentinel}}} m=TO_FRONT f=NONE p=WCT{RemoteToken{632ac85 DefaultTaskDisplayArea@140311182}} leash=Surface(name=Task=8)/@0x6b7123d sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{632ac85 DefaultTaskDisplayArea@140311182}} m=TO_FRONT f=NONE leash=Surface(name=DefaultTaskDisplayArea)/@0x303b8fd sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-28 16:57:21.789   385   494 D audioserver: FGS Logger Transaction failed
+10-28 16:57:21.789   385   494 D audioserver: -129
+10-28 16:57:21.806   798   853 D KeyguardService: Starts IRemoteAnimationRunner: info={id=21 t=TO_BACK f=0x104 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@4fb4a77} m=TO_FRONT f=NONE p=WCT{android.window.IWindowContainerToken$Stub$Proxy@eb926e4} leash=Surface(name=Task=8)/@0xe924f38 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@707374d} m=TO_FRONT f=NONE leash=Surface(name=DefaultTaskDisplayArea)/@0x5befb11 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-28 16:57:21.857   798   853 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultMixedHandler@d01af49
+10-28 16:57:21.857   798   798 D KeyguardViewMediator: handleStartKeyguardExitAnimation startTime=0 fadeoutDuration=0
+10-28 16:57:21.858   798   798 D KeyguardUnlock: playCannedUnlockAnimation
+10-28 16:57:21.858   798   798 D KeyguardUnlock: playCannedUnlockAnimation, surfaceBehindEntryAnimator#start
+10-28 16:57:21.858   508   527 W Looper  : Slow dispatch took 114ms android.fg h=android.os.Handler c=com.android.server.wm.Transition$$ExternalSyntheticLambda10@8022ada m=0
+10-28 16:57:21.858   798   853 W Looper  : Slow dispatch took 114ms wmshell.main h=android.os.Handler c=com.android.wm.shell.transition.Transitions$TransitionPlayerImpl$$ExternalSyntheticLambda0@ab06e7c m=0
+10-28 16:57:21.863   798   798 D KeyguardUnlock: surfaceBehindEntryAnimator#onAnimationEnd
+10-28 16:57:21.863   798   798 D KeyguardViewMediator: onKeyguardExitRemoteAnimationFinished
+10-28 16:57:21.907   385   494 D audioserver: FGS Logger Transaction failed
+10-28 16:57:21.907   385   494 D audioserver: -129
+10-28 16:57:21.932   798   798 D KeyguardViewMediator: onKeyguardExitRemoteAnimationFinished#hideKeyguardViewAfterRemoteAnimation
+10-28 16:57:21.935   798   798 D CentralSurfaces: Received new disable state: Old: enaiHbcRso.qingr | New: enaihbcrso.qingr (changed: hr.)
+10-28 16:57:21.935   385   400 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000004) and output flags (00000002)
+10-28 16:57:21.936   385   400 D AF::TrackHandle: OpPlayAudio: track:59 usage:13 not muted
+10-28 16:57:21.944   385   400 D audioserver: FGS Logger Transaction failed
+10-28 16:57:21.944   385   400 D audioserver: -129
+10-28 16:57:21.984   798   798 D KeyguardBouncerRepositoryImpl: Keyguard Bouncer is hiding.
+10-28 16:57:21.984   798   798 D SbStateController: setState: requested state SHADE!= upcomingState: KEYGUARD. This usually means the status bar state transition was interrupted before the upcoming state could be applied.
+10-28 16:57:21.986   798   798 D CentralSurfaces: updateQsExpansionEnabled - QS Expand enabled: true
+10-28 16:57:21.989   508   508 D BiometricService: Sensor ID(4), oemStrength: 15, updatedStrength: 15, modality 8, state: 0, cookie: 0, sensorId 4, hasEnrollments: false cannot participate in Keystore operations
+10-28 16:57:21.989   508   508 D BiometricService: Sensor ID(0), oemStrength: 15, updatedStrength: 15, modality 2, state: 0, cookie: 0, sensorId 0, hasEnrollments: false cannot participate in Keystore operations
+10-28 16:57:21.990   153  2506 I keystore2: system/security/keystore2/src/authorization.rs:143 - on_lock_screen_event(r#UNLOCK, user_id=0, password.is_some()=false, unlocking_sids=Some([]))
+10-28 16:57:21.991   385  1715 D audioserver: FGS Logger Transaction failed
+10-28 16:57:21.992   385  1715 D audioserver: -129
+10-28 16:57:21.993   508  1622 D CompatibilityChangeReporter: Compat change id reported: 229362273; UID 10117; state: ENABLED
+10-28 16:57:21.998   508   529 I DropBoxManagerService: add tag=system_app_strictmode isTagEnabled=true flags=0x2
+10-28 16:57:22.000  1084  1084 I OverviewComponentObserver: updateOverviewTargets: mIsHomeDisabled=false, isDefaultHomeNull=false, mIsDefaultHome=true
+10-28 16:57:22.001   798   798 D CentralSurfaces: Received new disable state: enaihbcrso.qingr (unchanged)
+10-28 16:57:22.006   798   798 D CentralSurfaces: updateQsExpansionEnabled - QS Expand enabled: true
+10-28 16:57:22.007   798   798 D CentralSurfaces: Received new disable state: enaihbcrso.qingr (unchanged)
+10-28 16:57:22.010   508  2172 D FaceProvider/default: Starting watchdog for face
+10-28 16:57:22.010   508  2172 D FingerprintProvider/default: Starting watchdog for fingerprint
+10-28 16:57:22.011   798   798 D KeyguardService: Finish IRemoteAnimationRunner.
+10-28 16:57:22.011   798   853 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#21)android.os.BinderProxy@83ae9d9@0
+10-28 16:57:22.084   385   494 D AudioFlinger: mixer(0x7e2d66d42930) throttle end: throttle time(24)
+10-28 16:57:22.085   508  2172 D SystemServerTiming: getUserSwitchability-0
+10-28 16:57:22.086   508  2172 D SystemServerTiming: TM.isInCall
+10-28 16:57:22.086   508  2172 V SystemServerTiming: TM.isInCall took to complete: 1ms
+10-28 16:57:22.086   508  2172 D SystemServerTiming: hasUserRestriction-DISALLOW_USER_SWITCH
+10-28 16:57:22.086   508  2172 V SystemServerTiming: hasUserRestriction-DISALLOW_USER_SWITCH took to complete: 0ms
+10-28 16:57:22.086   508  2172 D SystemServerTiming: getInt-ALLOW_USER_SWITCHING_WHEN_SYSTEM_USER_LOCKED
+10-28 16:57:22.087   508  2172 V SystemServerTiming: getInt-ALLOW_USER_SWITCHING_WHEN_SYSTEM_USER_LOCKED took to complete: 0ms
+10-28 16:57:22.089   508  2172 D SystemServerTiming: isUserUnlocked-USER_SYSTEM
+10-28 16:57:22.089   508  2172 V SystemServerTiming: isUserUnlocked-USER_SYSTEM took to complete: 0ms
+10-28 16:57:22.089   508  2172 V SystemServerTiming: getUserSwitchability-0 took to complete: 3ms
+10-28 16:57:22.100   508   527 V WindowManager: Finish Transition #21: created at 10-28 16:57:21.683 collect-started=0.034ms request-sent=0.075ms started=24.707ms ready=24.698ms sent=49.145ms finished=405.578ms
+10-28 16:57:22.100   798   897 D KeyguardService: setOccluded(false)
+10-28 16:57:22.101   798   897 D KeyguardViewMediator: setOccluded(false)
+10-28 16:57:22.101   798   853 V WindowManagerShell: Track 0 became idle
+10-28 16:57:22.102   798   853 V WindowManagerShell: All active transition animations finished
+10-28 16:57:22.102   798   853 W Looper  : Slow dispatch took 90ms wmshell.main h=android.os.Handler c=com.android.wm.shell.keyguard.KeyguardTransitionHandler$1$$ExternalSyntheticLambda0@839dacf m=0
+10-28 16:57:22.138   385   494 D AudioFlinger: mixer(0x7e2d66d42930) throttle end: throttle time(26)
+10-28 16:57:22.266   508   889 I ImeTracker: com.shieldpericias.sentinel:d6fd98ca: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_SAME_WINDOW_FOCUSED_WITHOUT_EDITOR
+10-28 16:57:22.266   508   889 I ImeTracker: com.shieldpericias.sentinel:d6fd98ca: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-28 16:57:22.269   385   494 D audioserver: FGS Logger Transaction failed
+10-28 16:57:22.269   385   494 D audioserver: -129
+10-28 16:57:22.461   798   876 D EGL_emulation: app_time_stats: avg=2949.92ms min=2949.92ms max=2949.92ms count=1
+10-28 16:57:22.528   798   798 D KeyguardViewMediator: handleSetOccluded(false)
+10-28 16:57:22.550   798   798 D CentralSurfaces: Received new disable state: enaihbcrso.qingr (unchanged)
+10-28 16:57:22.565   798   798 W FrameTracker: Missed App frame:UNKNOWN: 10, 4940, 0, CUJ=J<LOCKSCREEN_UNLOCK_ANIMATION::DismissPanel>
+10-28 16:57:22.565   798   798 W FrameTracker: Missed SF frame:UNKNOWN: 10, 4940, 0, CUJ=J<LOCKSCREEN_UNLOCK_ANIMATION::DismissPanel>
+10-28 16:57:22.567   798   798 W FrameTracker: Missing HWUI jank callback for vsyncId: 4940, CUJ=J<LOCKSCREEN_UNLOCK_ANIMATION::DismissPanel>
+10-28 16:57:22.592   798   798 D CentralSurfaces: Received new disable state: enaihbcrso.qingr (unchanged)
+10-28 16:57:22.593   798   798 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-28 16:57:22.601   798   875 D ControlsListingControllerImpl: Unsubscribing callback
+10-28 16:57:22.604   798   875 D ControlsListingControllerImpl: Unsubscribing callback
+10-28 16:57:22.605   798   875 D ControlsListingControllerImpl: Unsubscribing callback
+10-28 16:57:23.656   508  2407 W KeySyncTask: No recovery agent initialized for user 0
+10-28 16:57:23.695   508   717 I system_server: Explicit concurrent copying GC freed 40822(1971KB) AllocSpace objects, 5(132KB) LOS objects, 49% free, 15MB/30MB, paused 31us,31us total 33.728ms
+10-28 16:57:23.726   508   717 I system_server: Explicit concurrent copying GC freed 889(75KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 15MB/30MB, paused 16us,27us total 29.732ms
+10-28 16:57:24.306   798   876 D EGL_emulation: app_time_stats: avg=938.27ms min=248.60ms max=1849.19ms count=3
+10-28 16:57:25.145   331  1438 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 492864
+10-28 16:57:25.261   508   592 D ActivityManager: freezing 801 com.android.permissioncontroller
+10-28 16:57:25.457   798   798 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-28 16:57:26.845     0     0 I logd    : logdr: UID=2000 GID=2000 PID=2708 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns

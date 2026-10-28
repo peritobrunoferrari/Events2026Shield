@@ -1,0 +1,4 @@
+  * ServiceRecord{b8e8c4f u0 com.shieldpericias.sentinel/.watchdog.SentinelGuardService}
+    intent={cmp=com.shieldpericias.sentinel/.watchdog.SentinelGuardService}
+    infoAllowStartForeground=[callingPackage: com.shieldpericias.sentinel; callingUid: 10141; uidState: RCVR; uidBFSL: n/a; intent: Intent { cmp=com.shieldpericias.sentinel/.watchdog.SentinelGuardService }; code:ACTIVITY_STARTER; tempAllowListReason:<null>; targetSdkVersion:37; callerTargetSdkVersion:37; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+    isForeground=true foregroundId=24065 types=40000000 foregroundNoti=Notification(channel=sentinel.guard shortcut=null contentView=null vibrate=null sound=null defaults=0x0 flags=0x2062 color=0x00000000 vis=SECRET)
