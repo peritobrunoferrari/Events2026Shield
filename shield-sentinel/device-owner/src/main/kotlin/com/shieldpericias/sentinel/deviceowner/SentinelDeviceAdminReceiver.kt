@@ -56,6 +56,8 @@ object DeviceAdminEvents {
         fun onProvisioningComplete(context: Context) {}
         fun onCredentialSucceeded(context: Context) {}
         fun onCredentialFailed(context: Context) {}
+        /** Resultado assíncrono de política (API 34+). [changed] = true quando a política mudou após ser definida. */
+        fun onPolicyResult(context: Context, policyIdentifier: String, result: String, changed: Boolean) {}
     }
 
     private val listeners = java.util.concurrent.CopyOnWriteArrayList<Listener>()

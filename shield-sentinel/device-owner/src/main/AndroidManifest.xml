@@ -18,5 +18,16 @@
                 <action android:name="android.app.action.PROFILE_PROVISIONING_COMPLETE" />
             </intent-filter>
         </receiver>
+
+        <!-- Android 14+: resultado assíncrono das políticas (conflito com outro admin etc.). -->
+        <receiver
+            android:name=".SentinelPolicyUpdateReceiver"
+            android:exported="true"
+            android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <intent-filter>
+                <action android:name="android.app.admin.action.DEVICE_POLICY_SET_RESULT" />
+                <action android:name="android.app.admin.action.DEVICE_POLICY_CHANGED" />
+            </intent-filter>
+        </receiver>
     </application>
 </manifest>

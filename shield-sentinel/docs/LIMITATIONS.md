@@ -14,7 +14,7 @@
 12. **Keystore em software** em aparelhos sem TEE/StrongBox reduz a proteção dos segredos (exibido em Diagnóstico).
 13. **Idioma.** Interface em pt-BR; `values-en` cobre apenas rótulos de navegação/ações. Textos longos das telas ainda não estão em recursos.
 14. **Homologação em aparelho real pendente.** O projeto compila no CI (APK de debug, compileSdk 37.1), os testes do core-logic passam e o smoke test em emulador (Android 14 e 16, Device Owner provisionado, 12 telas sem crash) é executado a cada push. Políticas USB, Auto-Reboot, Auto-Wipe e prova de desbloqueio ainda não foram exercitadas ponta a ponta em hardware real. Samsung/Motorola não validados.
-15. **Sem R8/minificação** no release desta fase (facilita auditoria; aumentar hardening de build depois da homologação).
-16. **PolicyUpdateReceiver (API 34) não implementado**: resultado assíncrono de políticas em conflito com outro admin não é capturado; o estado é relido pelo Watchdog.
+15. **R8 no release** encolhe código e recursos mas mantém os nomes de classes do app (`-keepnames`) para facilitar auditoria do APK; a chave de release ainda não foi gerada (o CI produz APK não assinado).
+16. **PolicyUpdateReceiver (API 34+)** registra o resultado assíncrono na auditoria e dispara o Watchdog em caso de conflito; em Android 12/13 esse retorno não existe e o estado é apenas relido periodicamente.
 17. **SDK 37 com versão menor.** O pacote `platforms;android-37` não existe; o Compose 1.12 exige compileSdk 37.1 (`compileSdkMinor`). O código usa apenas APIs ≤ 36 (AdvancedProtectionManager é a mais recente); a validação de comportamento em Android 17 depende de aparelho/emulador com a imagem final.
 18. **Prova de desbloqueio após troca de credencial**: a chave auth-bound é invalidada e recriada; o desbloqueio seguinte conta normalmente.

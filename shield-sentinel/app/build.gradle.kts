@@ -17,6 +17,34 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    // Assinatura de release: lida de app/keystore.properties (não versionado) ou de variáveis
+    // de ambiente SENTINEL_KEYSTORE_FILE/PASSWORD/KEY_ALIAS/KEY_PASSWORD. Sem elas, o APK de
+    // release sai NÃO assinado (apenas para verificar o build).
+    val keystoreProps = java.util.Properties().apply {
+        val f = rootProject.file("app/keystore.properties")
+        if (f.exists()) f.inputStream().use { load(it) }
+    }
+    val ksFile = keystoreProps.getProperty("storeFile") ?: System.getenv("SENTINEL_KEYSTORE_FILE")
+    if (ksFile != null && file(ksFile).exists()) {
+        signingConfigs {
+            create("release") {
+                storeFile = file(ksFile)
+                storePassword = keystoreProps.getProperty("storePassword") ?: System.getenv("SENTINEL_KEYSTORE_PASSWORD")
+                keyAlias = keystoreProps.getProperty("keyAlias") ?: System.getenv("SENTINEL_KEY_ALIAS")
+                keyPassword = keystoreProps.getProperty("keyPassword") ?: System.getenv("SENTINEL_KEY_PASSWORD")
+            }
+        }
+    }
+
+    buildTypes {
+        getByName("release") {
+            isMinifyEnabled = true
+            isShrinkResources = true
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            if (ksFile != null && file(ksFile).exists()) signingConfig = signingConfigs.getByName("release")
+        }
+    }
+
     buildFeatures {
         compose = true
     }

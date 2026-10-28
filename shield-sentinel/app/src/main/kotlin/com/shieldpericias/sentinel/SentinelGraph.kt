@@ -138,6 +138,10 @@ class SentinelGraph private constructor(private val context: Context) : Watchdog
             override fun onAdminDisabled(context: Context) { audit.append(AuditTypes.ADMIN_DISABLED); alerts.protectionLost(listOf("Administrador do Sentinel desativado")) }
             override fun onProvisioningComplete(context: Context) { audit.append(AuditTypes.PROVISIONING_COMPLETE); watchdog.run(notify = false) }
             override fun onCredentialSucceeded(context: Context) { unlockVerifier.onUnlockSignal("onPasswordSucceeded") }
+            override fun onPolicyResult(context: Context, policyIdentifier: String, result: String, changed: Boolean) {
+                audit.append(if (result == "RESULT_POLICY_SET" || result == "RESULT_POLICY_CLEARED") AuditTypes.POLICY_APPLIED else AuditTypes.POLICY_FAILED, "async:$policyIdentifier:$result")
+                if (changed || !result.startsWith("RESULT_POLICY_")) watchdog.run(notify = true)
+            }
         })
         SentinelGuardService.start(context)
         watchdogScheduler.schedule()

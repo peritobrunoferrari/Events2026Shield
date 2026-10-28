@@ -56,6 +56,12 @@ cd shield-sentinel
 ./gradlew -PsentinelCompileSdk=37 -PsentinelCompileSdkMinor=2 assembleDebug   # outra versão menor do SDK 37
 ```
 
+Release (R8 + encolhimento de recursos). Para assinar, crie `app/keystore.properties` (ignorado pelo git) com `storeFile`, `storePassword`, `keyAlias`, `keyPassword`, ou exporte `SENTINEL_KEYSTORE_FILE`, `SENTINEL_KEYSTORE_PASSWORD`, `SENTINEL_KEY_ALIAS`, `SENTINEL_KEY_PASSWORD`. Sem isso o APK de release sai não assinado. O checksum de assinatura usado no QR de provisionamento deve ser o da chave de release.
+
+```bash
+./gradlew assembleRelease   # app/build/outputs/apk/release/
+```
+
 Sem Android SDK (ex.: CI restrito, este contêiner de desenvolvimento):
 
 ```bash
