@@ -1,0 +1,8 @@
+
+com.shieldpericias.sentinel.DeviceOwnerPolicyTest:............
+
+Time: 1.838
+
+OK (13 tests)
+
+
