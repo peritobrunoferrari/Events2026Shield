@@ -24,6 +24,9 @@ Workflow `shield-sentinel-emulator.yml` (runner Linux com KVM, imagens AOSP `def
 4. registra `dumpsys device_policy`, estado do `SentinelGuardService`, um ciclo bloquear/desbloquear e a auditoria (`audit.jsonl` via `run-as`).
 Nenhuma ação destrutiva: não há wipe nem reboot. Artefatos: `emulator-smoke-results-api34/36` e branches `ci-emulator-results-api34/36` (PNGs, logcat, dumpsys, audit.jsonl).
 
+## 2c. Testes instrumentados com Device Owner real (CI) — automatizados
+`app/src/androidTest/.../DeviceOwnerPolicyTest.kt` (13 casos) roda no emulador depois do smoke test, via `tools/emulator/instrumented-test.sh` (`adb install -r` + `am instrument`; o `connectedAndroidTest` do Gradle não serve porque tenta desinstalar o Device Owner). Cobre: capacidades, perfis USB Elevada/Máxima (sem desabilitar sinalização real), 10 políticas de hardening aplicadas e revertidas, Emergency Engine (armado/confirmação/USB), Auto-Wipe em ensaio (nunca apaga), RebootScheduler com executor falso (vencido → 1 chamada), comandos remotos (aceito, replay, pendente, revogado), Duress sem reconhecimento (recusa) e com ensaio (simulado), prova de desbloqueio, auditoria e QR. Termina com `lockNow()`.
+
 ## 3. Testes de integração (instrumentados, aparelho/emulador) — a executar na homologação
 Pré-requisito: emulador ou aparelho secundário com o Sentinel como Device Owner (`adb shell dpm set-device-owner …`). **Use APK debug com `dryRun` ligado.**
 
